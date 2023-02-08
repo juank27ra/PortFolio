@@ -1,9 +1,9 @@
 import React from 'react'
-import linkedIn from './assets/linkedin-icon.svg'
-import github from './assets/github.svg'
-import mail from './assets/google-gmail.svg'
-import whatsapp from './assets/whatsapp-icon.svg'
-import arrow_up from './assets/arrow_up.svg'
+import linkedIn from '../assets/linkedin-icon.svg'
+import github from '../assets/github.svg'
+import mail from '../assets/google-gmail.svg'
+import whatsapp from '../assets/whatsapp-icon.svg'
+import arrow_up from '../assets/arrow_up.svg'
 
 
 export default function Contact() {
@@ -26,7 +26,7 @@ export default function Contact() {
           <h1 className='text-white text-4xl font-semibold'>Contactame</h1>
           <h1 className='text-white text-4xl font-semibold'>Aqui</h1>
         </div>
-          <form className='h-[46rem] w-[600px] bg-white'>
+          {/* <form className='h-[46rem] w-[600px] bg-white'>
             <div className='flex justify-center'>
               <input
                 type='text'
@@ -38,9 +38,9 @@ export default function Contact() {
               />
               <button  type='submit' className='text-3xl border border-black'>Enviar</button> 
             </div>
-          </form>
+          </form> */}
         <div className='flex items-end mb-10 ml-[58rem] '>
-        <button className='' onClick={scrollZero}><img className='flex justify-center mt-32 h-20' src={arrow_up} alt='flecha abajo para continuar'/></button>
+        <button className=' animate-pulse' onClick={scrollZero}><img className='flex justify-center mt-32 h-20' src={arrow_up} alt='flecha abajo para continuar'/></button>
         </div>
       </div>
 

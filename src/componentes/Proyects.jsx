@@ -1,9 +1,9 @@
-import React from 'react'
-import arrow from './assets/arrow_down.png'
-import comics from './assets/comics.webp'
-import videogames from './assets/Mario.webp'
-import codigo from './assets/cod.jpg'
-import tareas from './assets/tareas.jpg'
+
+import arrow from '../assets/arrow_down.png'
+import comics from '../assets/comics.webp'
+import videogames from '../assets/Mario.webp'
+import codigo from '../assets/cod.jpg'
+import tareas from '../assets/tareas.jpg'
 
 export default function Proyects() {
 
@@ -11,11 +11,10 @@ export default function Proyects() {
     return window.scrollTo(0, 1940)
   }
 
-
   return (
      <div className='bg-slate-300 h-screen'>
       <div className='w-max mx-40 py-8 '>
-       <h1 className='text-orange-700 text font-serif text-4xl shadow-sm shadow-orange-800'>#Proyectos</h1>
+       <h1 className='text-orange-700 text  font-serif text-4xl p-14 '>Proyectos</h1>
        </div>
        <div className='flex flex-row items-center justify-center gap-3'>
         <div className='flex items-center justify-center bg-slate-300'>
@@ -27,12 +26,12 @@ export default function Proyects() {
               </div>
               <div className='absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]'>
                 <div className='flex h-min-full flex-col items-center justify-center ' >
-                <h1 className='text-xl font-bold my-8'> Proyecto grupal full Satck:</h1>
+                <h1 className='text-xl font-bold my-8 text-cyan-600'> Proyecto grupal full Satck:</h1>
                 <br/>
                 <p className='text-sm'>metodología scrum </p>
                 <p className='text-base'> Ecomerce de comics incluye autenticación pasarela de pago creacion y guardado en base de datos etc</p>
                 <a href='https://github.com/Dagoav/e-comics' target='_blank'>
-                <button className='mt-2 rounded-md bg-orange-600 py-1 px-2 text-sm hover:bg-slate-800'>Código Fuente</button>
+                <button className='mt-24 rounded-md bg-orange-600 py-1 px-2 text-sm hover:bg-slate-800'>Código Fuente</button>
                  </a>
                 </div>
               </div>
@@ -48,12 +47,12 @@ export default function Proyects() {
               </div>
               <div className='absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]'>
                 <div className='flex h-min-full flex-col items-center justify-center my-16' >
-                <h1 className='text-xl font-bold'> Videogames</h1>
+                <h1 className='text-xl font-bold text-cyan-600'> Videogames</h1>
                 <br/>
-                <p className='text-sm'>Proyecto full Satck: </p>
+                <p className='text-sm '>Proyecto full Satck: </p>
                 <p className='text-base'> muestra de videojuegos, filtrado, busqueda</p>
                 <p> creacion y guardado en base de Datos</p>
-                <button className='mt-2 rounded-md bg-orange-600 py-1 px-2 text-sm hover:bg-slate-700'>Código Fuente </button>
+                <button className='mt-[9.5rem] rounded-md bg-orange-600 py-1 px-3 text-sm hover:bg-slate-700'>Código Fuente </button>
                 </div>
               </div>
             </div>
@@ -68,12 +67,12 @@ export default function Proyects() {
               </div>
               <div className='absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]'>
                 <div className='flex h-min-full flex-col items-center justify-center my-16' >
-                <h1 className='text-xl font-bold'> Tareas</h1>
+                <h1 className='text-xl font-bold text-cyan-600 '> Tareas</h1>
                 <br/>
                 <p className='text-sm'>Proyecto full Satck: </p>
                 <p className='text-base'> muestra de videojuegos, filtrado, busqueda</p>
                 <p> creacion y guardado en base de Datos</p>
-                <button className='mt-2 rounded-md bg-orange-600 py-1 px-2 text-sm hover:bg-slate-700'>Código Fuente </button>
+                <button className='mt-[9.5rem] rounded-md bg-orange-600 py-1 px-2 text-sm hover:bg-slate-700'>Código Fuente </button>
                 </div>
               </div>
             </div>
@@ -88,12 +87,12 @@ export default function Proyects() {
               </div>
               <div className='absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]'>
                 <div className='flex h-min-full flex-col items-center justify-center my-16' >
-                <h1 className='text-xl font-bold'> Varios</h1>
+                <h1 className='text-xl font-bold text-cyan-600 '> Varios</h1>
                 <br/>
                 <p className='text-sm'>Proyectos full Stack, solo front y maquetado </p>
                 <p className='text-base'>podrás ver en github el código y fotos de los mismos.</p>
                 <a href='https://github.com/juank27ra?tab=repositories' target='_blank'>
-                <button className='mt-2 rounded-md bg-orange-600 py-1 px-2 text-sm hover:bg-slate-700'>Código Fuente </button>
+                <button className='mt-[11.5rem] rounded-md bg-orange-600 py-1 px-4 w-40 text-sm hover:bg-slate-700'>Código Fuente </button>
                 </a>
                 </div>
               </div>
@@ -103,7 +102,7 @@ export default function Proyects() {
                 
        </div>
        <div className='flex items-center justify-center'>
-          <button onClick={sccrollDown}><img className='flex justify-center mt-32 h-20' src={arrow} alt='flecha abajo para continuar'/></button>
+          <button onClick={sccrollDown}><img className='flex justify-center mt-40 animate-bounce h-20' src={arrow} alt='flecha abajo para continuar'/></button>
        </div>
       </div>
 
