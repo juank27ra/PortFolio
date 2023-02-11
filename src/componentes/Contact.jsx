@@ -1,51 +1,38 @@
-import {useState} from 'react'
+import {useState, useRef} from 'react'
 import linkedIn from '../assets/linkedin-icon.svg'
 import github from '../assets/github.svg'
 import mail from '../assets/google-gmail.svg'
 import whatsapp from '../assets/whatsapp-icon.svg'
 import arrow_up from '../assets/arrow_up.svg'
-// import { SMTPClient } from 'emailjs';
-
-  // const client = new SMTPClient({
-  //   user: 'user',
-  //   password: 'password',
-  //   host: 'smtp.your-email.com',
-  //   ssl: true,
-  // });
-  
-  // client.send(
-  //   {
-  //     text: 'i hope this works',
-  //     from: 'you <username@your-email.com>',
-  //     to: 'someone <someone@your-email.com>, another <another@your-email.com>',
-  //     cc: 'else <else@your-email.com>',
-  //     subject: 'testing emailjs',
-  //   },
-  //   (err, message) => {
-  //     console.log(err || message);
-  //   }
-  // );
+import emailjs from '@emailjs/browser'
+import { Message } from 'emailjs'
 
 export default function Contact() {
-  const [input, setInput] = useState({
+  const form = useRef();
+    const [input, setInput] = useState({
     name: '',
     email: '',
     text: ''
   })
 
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_9wag25i', 'template_gun8396', form.current, '9o3nVGCqSxFDzrRZq')
+      .then((result) => {
+          alert(result.text = "El mensaje fue enviado con exito");
+      }, (error) => {
+          console.log(error.text = "El mensaje no pudo ser enviado vuelva a intentarlo");
+      });
+  };
+
   const scrollZero = (e) => {
     return window.scrollTo(0, 0)
   }
-  const handleInput = (e) => {
-    const {value, name} = e.target
-    setInput({
-      ...input, 
-      [name] : value
-    })
-  }
-  const handleSubmit = () => {
+
+  const handleSubmit = (e) => {
     e.preventDefault()
-    client()
+    send()
     alert('Mensaje enviado con exito')
     setInput({
       name: '',
@@ -71,46 +58,44 @@ export default function Contact() {
           {/* <h1 className='text-white text-4xl font-semibold'>Aqui</h1> */}
         </div>
             <div className='border-2 ml-[50%] border-solid h-[31rem] w-[650px] mt-20 p-4'>
-            <form >
+            <form ref={form} onSubmit={sendEmail}>
               <div >
               <div className='flex'>
-                  <p className='text-white px-3'> Nombre </p>
-                  <p className='text-white mx-60'>Email </p>
+                  <label className='text-white px-3'> Nombre </label>
+                  <label className='text-white mx-60'>Email </label>
                   </div>
               <div className='flex justify-around'>
                 <input
                   type='text'
-                  value={input.name}
-                  name='name'
-                  onChange={handleInput}
+                  name="user_name"
                   className='h-10 bg-gray-100 w-72 px-1 my-4 '
                   required
                 />
                 <input
                   type='email'
-                  value={input.email}
-                  name='email'
-                  onChange={handleInput}
+                  name="user_email"
                   className='h-10 bg-gray-100 w-72 px-1 my-4 '
                   required
                 />
                 </div>
                   <div className='flex'>
-                  <p className='text-white px-3'>  Mensaje </p>
+                  <label className='text-white px-3'> Mensaje </label>
                   </div>
                   <div className='flex justify-center'>
-                    <input
-                      type='textarea'
-                      value={input.text}
-                      name='text'
-                      onChange={handleInput}
+                    <textarea
+                      name='message'
                       className='h-64 w-[37rem] bg-gray-100 px-1 mt-2'
                       required
                     />
                   </div>
-              </div>
               <div className='flex justify-center'>
-                <button type='submit' onClick={handleSubmit} className='text-xl my-4 mx-2 bg-cyan-600 p-2 text-white font-semibold border-2 rounded-md hover:bg-gray-400 hover:text-black hover:font-semibold px-20 duration-1000 snap-start border-black'>Enviar</button> 
+                    <input
+                      type='submit'
+                      value='Send'
+                      className='text-xl my-4 mx-2 bg-cyan-600 p-2 text-white cursor-pointer font-semibold border-2 rounded-md hover:bg-gray-400 hover:text-black hover:font-semibold px-20 duration-1000 snap-start border-black'
+                    />
+                {/* <button type='submit' value='Send' onClick={handleSubmit} className='text-xl my-4 mx-2 bg-cyan-600 p-2 text-white font-semibold border-2 rounded-md hover:bg-gray-400 hover:text-black hover:font-semibold px-20 duration-1000 snap-start border-black'>Enviar</button>  */}
+              </div>
               </div>
             </form> 
           </div>
