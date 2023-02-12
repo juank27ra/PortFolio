@@ -5,7 +5,6 @@ import mail from '../assets/google-gmail.svg'
 import whatsapp from '../assets/whatsapp-icon.svg'
 import arrow_up from '../assets/arrow_up.svg'
 import emailjs from '@emailjs/browser'
-import { Message } from 'emailjs'
 
 export default function Contact() {
   const form = useRef();
@@ -18,6 +17,11 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    setInput({
+      name: '',
+      email: '',
+      text: ''
+    })
     emailjs.sendForm('service_9wag25i', 'template_gun8396', form.current, '9o3nVGCqSxFDzrRZq')
       .then((result) => {
           alert(result.text = "El mensaje fue enviado con exito");
@@ -30,14 +34,11 @@ export default function Contact() {
     return window.scrollTo(0, 0)
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    send()
-    alert('Mensaje enviado con exito')
+  const handleChange = (e) => {
+    const {name, value} = e.target
     setInput({
-      name: '',
-      email: '',
-      text: ''
+        ...input,
+        [name] : value
     })
   }
 
@@ -68,12 +69,14 @@ export default function Contact() {
                 <input
                   type='text'
                   name="user_name"
+                  onChange={handleChange}
                   className='h-10 bg-gray-100 w-72 px-1 my-4 '
                   required
                 />
                 <input
                   type='email'
                   name="user_email"
+                  onChange={handleChange}
                   className='h-10 bg-gray-100 w-72 px-1 my-4 '
                   required
                 />
@@ -84,6 +87,7 @@ export default function Contact() {
                   <div className='flex justify-center'>
                     <textarea
                       name='message'
+                      onChange={handleChange}
                       className='h-64 w-[37rem] bg-gray-100 px-1 mt-2'
                       required
                     />
@@ -94,7 +98,6 @@ export default function Contact() {
                       value='Send'
                       className='text-xl my-4 mx-2 bg-cyan-600 p-2 text-white cursor-pointer font-semibold border-2 rounded-md hover:bg-gray-400 hover:text-black hover:font-semibold px-20 duration-1000 snap-start border-black'
                     />
-                {/* <button type='submit' value='Send' onClick={handleSubmit} className='text-xl my-4 mx-2 bg-cyan-600 p-2 text-white font-semibold border-2 rounded-md hover:bg-gray-400 hover:text-black hover:font-semibold px-20 duration-1000 snap-start border-black'>Enviar</button>  */}
               </div>
               </div>
             </form> 
