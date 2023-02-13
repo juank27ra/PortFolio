@@ -44,7 +44,7 @@ function Home() {
             <p className='text-3xl font-semibold mt-10 text-white'>Bienvenidos. </p>
               <div className='flex items-start'>
                 <Link to='about'><button className='flex duration-1000 snap-start border-gray-300 border-x-2 hover:border-cyan-400 mt-16 p-4 font-bold text-white hover:underline bg-orange-500 hover:bg-cyan-900 ' onClick=''>Más sobre mi</button></Link>
-                <button className=' duration-1000 ' onClick={sccrollDown}> <img className='flex ml-44 animate-bounce  mt-60 h-20 scroll-smooth ' src={arrow} alt='ícono flecha abajo para continuar'/></button>
+                <button className=' duration-1000 ' onClick={sccrollDown}> <img className='flex ml-[40px] animate-bounce  mt-60 h-20 scroll-smooth ' src={arrow} alt='ícono flecha abajo para continuar'/></button>
               </div>
           </div>
         <div className='flex flex-col ml-20 shadow-md shadow-orange-400 bg-gray-500 items-center w-24 gap-2'>
