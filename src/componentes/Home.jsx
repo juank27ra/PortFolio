@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import imagPerfil from '../assets/Juan.png'
+import imagPerfil from '../assets/Juan.jpg'
 import html from '../assets/html-5.svg'
 import js from '../assets/javascript.svg'
 import mongodb from '../assets/mongodb-icon.svg'
