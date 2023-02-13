@@ -26,7 +26,7 @@ export default function
         <h1 className='text-4xl text-cyan-500 font-semibold uppercase mt-8 px-4'>Experiencia Laboral</h1>
           <div className='my-12 mx-4  text-white text-xl'>
             <p className=''> Toda mi experiencia laboral fue entorno a ventas y servicio al cliente. He trabajo en equipo y de forma individual respondiendo siempre de manera eficaz</p>
-            <p>En el Campo de la tecnología llevo Año y medio donde pude certificarme como developer full stack y donde he realizado proyectos individuales y uno grupal utilizando metodología scrum y aspirando a encontrar mi primera experiencia Empresarial</p>
+            <p>En el Campo de la tecnología llevo Año y medio donde pude certificarme como developer full stack y donde he realizado proyectos individuales y uno grupal utilizando metodología scrum y aspirando a encontrar mi primera experiencia laboral IT</p>
           </div>
         </div>
         <div className=' bg-slate-400/60 rounded-lg hover:shadow-xl hover:shadow-orange-500  h-[34rem] w-96 border-double border-4 border-orange-400 text-center'>
