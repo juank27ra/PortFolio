@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import imagPerfil from '../assets/juan (1).png'
+import imagPerfil from '../assets/Juan.png'
 import html from '../assets/html-5.svg'
 import js from '../assets/javascript.svg'
 import mongodb from '../assets/mongodb-icon.svg'
@@ -10,15 +10,13 @@ import tailwindcss from '../assets/tailwindcss-icon.svg'
 import git from '../assets/git-icon.svg'
 import sequelize from '../assets/sequelize.svg'
 import redux from '../assets/redux.svg'
-import react from '../assets/react (1).svg'
+import react from '../assets/react.svg'
 import postgres from '../assets/postgresql.svg'
 import arrow from '../assets/downarrow_78496.svg'
 import Proyects from './Proyects'
 import Contacts from './Contact'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
-import Sobremi from './Sobremi'
-// import './App.css'
 
 function Home() {
 
@@ -26,17 +24,13 @@ function Home() {
     return window.scrollTo(0, 970)
   }
 
-
   return (
     <div >
     <div className='bg-slate-900 h-screen '>
-      {/* <h3 className='text-6xl font-extrabold ml-40 text-black pt-4'> Developer </h3> */}
     <div className='w-max p-8 '>
-      {/* <h3 className='text-6xl font-bold ml-60 text-cyan-600  shadow-md shadow-orange-400 py-2 px-4'> Full Stack. </h3> */}
       <h3 className='text-6xl font-bold ml-60 text-cyan-600  shadow-md shadow-orange-400 py-2 px-4'> Portfolio </h3>
     </div>
       <div className='flex flex-row-2 gap-8 place-content-center justify-center items-center'>
-
         <img className='h-[600px] w-auto opacity- bg-transparent grayscale rounded-full hover:shadow-lg hover:shadow-blue-400 hover:grayscale-0' src={imagPerfil} alt='Imagen de perfil' />
           <div className='mt-20'>
             <h1 className=' text-xl text-white '>Hola!👋, Soy </h1>
