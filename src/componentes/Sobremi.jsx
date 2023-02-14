@@ -37,7 +37,7 @@ export default function
             <p className='m-4 p-2'> ✔️ Me gusta aprender</p>
             <p className='m-4 p-2'> ✔️ Los propósitos del lugar donde trabajo también son los míos</p>
             <p className='m-4 p-2'> ✔️ Aprecio trabajar tanto individual como grupalmente donde lograr los objetivos es lo máximo</p>
-            <p className='m-4 p-2'> ✔️ </p>
+            {/* <p className='m-4 p-2'> ✔️ </p> */}
           </div>
         </div>
       </div>

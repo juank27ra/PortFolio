@@ -30,9 +30,9 @@ export default function Proyects() {
                 <br/>
                 <p className='text-sm'>metodología scrum </p>
                 <p className='text-base'> Ecomerce de comics incluye autenticación pasarela de pago creacion y guardado en base de datos etc</p>
-                <a href='https://github.com/Dagoav/e-comics' target='_blank'>
-                <button className='mt-24 rounded-md bg-orange-600 py-1 px-2 text-sm hover:bg-slate-800'>Código Fuente</button>
-                 </a>
+                <a href='https://github.com/Dagoav/e-comics' target='_blank'><button className='mt-24 rounded-md bg-orange-600 py-1 px-2 text-sm hover:bg-slate-800'>Código Fuente</button> </a>
+                <a href='https://e-comics.vercel.app/' target='_blank'><button className='mt-24 rounded-md bg-cyan-600 py-1 px-2 text-sm hover:bg-slate-800'>En vivo</button> </a>
+                
                 </div>
               </div>
             </div>
@@ -52,7 +52,8 @@ export default function Proyects() {
                 <p className='text-sm '>Proyecto full Satck: </p>
                 <p className='text-base'> muestra de videojuegos, filtrado, busqueda</p>
                 <p> creacion y guardado en base de Datos</p>
-                <button className='mt-[9.5rem] rounded-md bg-orange-600 py-1 px-3 text-sm hover:bg-slate-700'>Código Fuente </button>
+                <a href='https://github.com/juank27ra/PI-VideoGames' target='_blank'><button className='mt-[9.5rem] rounded-md bg-orange-600 py-1 px-3 text-sm hover:bg-slate-700'>Código Fuente </button></a>
+                <a href='' target='_blank'><button className='mt-[9.5rem] rounded-md bg-cyan-600 py-1 px-3 text-sm hover:bg-slate-700'>En vivo </button></a>
                 </div>
               </div>
             </div>
@@ -70,9 +71,10 @@ export default function Proyects() {
                 <h1 className='text-xl font-bold text-cyan-600 '> Tareas</h1>
                 <br/>
                 <p className='text-sm'>Proyecto full Satck: </p>
-                <p className='text-base'> muestra de videojuegos, filtrado, busqueda</p>
-                <p> creacion y guardado en base de Datos</p>
-                <button className='mt-[9.5rem] rounded-md bg-orange-600 py-1 px-2 text-sm hover:bg-slate-700'>Código Fuente </button>
+                <p className='text-base'> Crea, muestra, edita y elimina Tareas</p>
+                <p> adicionalmente se le puede colocar un tiempo estimado para cumplir esa tarea</p>
+                <a href='https://github.com/juank27ra/tasks-modelo-empresarial' target='_blank'><button className='mt-[9.5rem] rounded-md bg-orange-600 py-1 px-2 text-sm hover:bg-slate-700'>Código Fuente </button></a>
+                <a href='' target='_blank'><button className='mt-[9.5rem] rounded-md bg-cyan-600 py-1 px-2 text-sm hover:bg-slate-700'>En vivo </button></a>
                 </div>
               </div>
             </div>
