@@ -73,7 +73,7 @@ export default function Proyects() {
                 <p className='text-sm'>Proyecto full Satck: </p>
                 <p className='text-base'> Crea, muestra, edita y elimina Tareas</p>
                 <p> adicionalmente se le puede colocar un tiempo estimado para cumplir esa tarea</p>
-                <a href='https://tasks-db68uv3on-juank27ra.vercel.app/' target='_blank'><button className='mt-[7.5rem] rounded-md bg-cyan-600 py-1 px-2 text-sm hover:bg-slate-700'>En vivo </button></a>
+                <a href='https://tasks-db68uv3on-juank27ra.vercel.app/' target='_blank'><button className='mt-[6.5rem] rounded-md bg-cyan-600 py-1 px-2 text-sm hover:bg-slate-700'>En vivo </button></a>
                 <a href='https://github.com/juank27ra/tasks-modelo-empresarial' target='_blank'><button className='mt-[0.5rem] rounded-md bg-orange-600 py-1 px-2 text-sm hover:bg-slate-700'>Código Fuente </button></a>
                 </div>
               </div>
