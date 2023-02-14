@@ -47,16 +47,15 @@ export default function Contact() {
     <div className='bg-gray-700 h-screen flex'>
       <div className='flex'>
         <div className='flex flex-col bg-cyan-900 items-center h-screen w-32 ml-40 gap-4'>
-          <a href='https://www.linkedin.com/in/juan-carlos-ramirez-pinilla-a8518077/' target='_blanc'><img className='h-12 w-12 mt-80 hover:shadow-lg hover:shadow-blue-400 hover:h-20 hover:w-20' src={linkedIn} alt='imagen icono de linkedIn'/></a> 
-          <a href='https://github.com/juank27ra' target='_blanc'><img className='h-12 w-12 hover:shadow-lg hover:shadow-gray-300 hover:h-20 hover:w-20' src={github} alt='imagen icono de github'/></a> 
-          <a href='https://mail.google.com/mail/u/0/#inbox' target='_blanc'><img className='h-12 w-12 hover:shadow-lg hover:shadow-red-600 hover:h-20 hover:w-20' src={mail} alt='imagen icono de mail'/></a> 
-          <a href='https://web.whatsapp.com/' target='_blanc'><img className='  after: h-12 w-12 hover:shadow-lg hover:shadow-green-600 hover:h-20 hover:w-20' src={whatsapp} alt='imagen icono de whatsap'/></a>  
+          <a href='https://www.linkedin.com/in/juan-carlos-ramirez-pinilla-a8518077/' target='_blanc'><img className='h-12 w-12 mt-80 hover:drop-shadow-2xl hover:shadow-blue-400 hover:h-20 hover:w-20' src={linkedIn} alt='imagen icono de linkedIn'/></a> 
+          <a href='https://github.com/juank27ra' target='_blanc'><img className='h-12 w-12  hover:drop-shadow-lg hover:shadow-gray-300 hover:h-20 hover:w-20' src={github} alt='imagen icono de github'/></a> 
+          <a href='mailto: juank27ra@gmail.com' target='_blanc'><img className='h-12 w-12 hover:drop-shadow-lg hover:shadow-red-600 hover:h-20 hover:w-20' src={mail} alt='imagen icono de mail'/></a> 
+          <a href='https://wa.me/573224772180' target='_blanc'><img className='  after: h-12 w-12 hover:drop-shadow-lg hover:shadow-green-600 hover:h-20 hover:w-20' src={whatsapp} alt='imagen icono de whatsap'/></a>  
         </div>
       </div>
         <div >
         <div className='ml-[98%] mt-20 flex justify-center'>
           <h1 className='text-white text-center text-4xl font-semibold'>Contactame Aqui</h1>
-          {/* <h1 className='text-white text-4xl font-semibold'>Aqui</h1> */}
         </div>
             <div className='border-2 ml-[50%] border-solid h-[31rem] w-[650px] mt-20 p-4'>
             <form ref={form} onSubmit={sendEmail}>

@@ -1,10 +1,12 @@
-import React from 'react'
+import { Link } from 'react-router-dom'
+import back from '../assets/back.svg'
 
 export default function 
 () {
   return (
     <div className='bg-slate-900 h-screen'>
     <h1 className='text-4xl font-bold p-10 text-orange-400'>Mas sobre mi...</h1>
+    <Link to={'/'}  className='flex justify-end mr-4 mb-4'><img src={back} alt='simbolo de regresar'/></Link> 
       <div className='flex justify-evenly py-24 bg-slate-800'>
         <div className=' bg-slate-400/60  rounded-lg hover:shadow-xl hover:shadow-cyan-500  h-[34rem] w-96 border-double border-4 border-cyan-400 text-center'>
         <h1 className='text-4xl text-cyan-500 font-semibold uppercase mt-8 p-4'>Certificaciones</h1>
@@ -30,12 +32,12 @@ export default function
           </div>
         </div>
         <div className=' bg-slate-400/60 rounded-lg hover:shadow-xl hover:shadow-orange-500  h-[34rem] w-96 border-double border-4 border-orange-400 text-center'>
-        <h1 className='text-4xl text-cyan-500 font-semibold uppercase mt-8 px-4'>Servicios</h1>
+        <h1 className='text-4xl text-orange-500 font-semibold uppercase mt-8 px-4'>porqué contratarme?</h1>
           <div className='my-20 mx-4  text-white text-xl'>
-            <p className='m-4 p-2'> ✔️ Full Stack Javasccript</p>
-            <p className='m-4 p-2'> ✔️ Back-end: Nodejs, Express, PostgresSQL y MongoDb</p>
-            <p className='m-4 p-2'> ✔️ Front-end: React, React-Redux tailwindcss</p>
-            <p className='m-4 p-2'> ✔️ Y siempre dispuesto a aprender mas tecnologías</p>
+            <p className='m-4 p-2'> ✔️ Me gusta aprender</p>
+            <p className='m-4 p-2'> ✔️ Los propósitos del lugar donde trabajo también son los míos</p>
+            <p className='m-4 p-2'> ✔️ Aprecio trabajar tanto individual como grupalmente donde lograr los objetivos es lo máximo</p>
+            <p className='m-4 p-2'> ✔️ </p>
           </div>
         </div>
       </div>
