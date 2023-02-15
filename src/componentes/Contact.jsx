@@ -55,14 +55,14 @@ export default function Contact() {
       </div>
         <div >
         <div className='ml-[98%] mt-20 flex justify-center'>
-          <h1 className='text-white text-center text-4xl font-semibold'>Contactame Aqui</h1>
+          <h1 className='text-orange-500 text-center text-4xl font-semibold'>Contactame Aqui</h1>
         </div>
-            <div className='border-2 ml-[50%] border-solid h-[31rem] w-[650px] mt-20 p-4'>
+            <div className='border-2 ml-[50%] border-solid border-orange-500 h-[31rem] w-[650px] mt-20 p-4'>
             <form ref={form} onSubmit={sendEmail}>
               <div >
               <div className='flex'>
-                  <label className='text-white px-3'> Nombre </label>
-                  <label className='text-white mx-60'>Email </label>
+                  <label className='text-orange-500 px-3'> Nombre </label>
+                  <label className='text-orange-500 mx-60'>Email </label>
                   </div>
               <div className='flex justify-around'>
                 <input
@@ -81,7 +81,7 @@ export default function Contact() {
                 />
                 </div>
                   <div className='flex'>
-                  <label className='text-white px-3'> Mensaje </label>
+                  <label className='text-orange-500 px-3'> Mensaje </label>
                   </div>
                   <div className='flex justify-center'>
                     <textarea
@@ -94,15 +94,15 @@ export default function Contact() {
               <div className='flex justify-center'>
                     <input
                       type='submit'
-                      value='Send'
-                      className='text-xl my-4 mx-2 bg-cyan-600 p-2 text-white cursor-pointer font-semibold border-2 rounded-md hover:bg-gray-400 hover:text-black hover:font-semibold px-20 duration-1000 snap-start border-black'
+                      value='Enviar'
+                      className='text-xl my-4 mx-2 bg-cyan-800 p-2 text-orange-500 cursor-pointer font-semibold border-2 rounded-md hover:bg-gray-700 hover:text-cyan-500 hover:font-semibold px-20 duration-1000 snap-start border-black'
                     />
               </div>
               </div>
             </form> 
           </div>
          </div> 
-        <div className='flex items-end ml-[45%] mb-4 '>
+        <div className='flex items-end ml-[44%] mb-4 '>
         <button className=' animate-pulse' onClick={scrollZero}><img className='flex justify-center mt-32 h-20' src={arrow_up} alt='flecha abajo para continuar'/></button>
         </div>
       </div>

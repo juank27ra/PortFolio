@@ -34,7 +34,7 @@ function Home() {
         <img className='h-[600px] w-auto opacity- bg-transparent grayscale rounded-full hover:shadow-lg hover:shadow-blue-400 hover:grayscale-0' src={imagPerfil} alt='Imagen de perfil' />
           <div className='mt-20'>
             <h1 className=' text-xl text-white '>Hola!👋, Soy </h1>
-            <h1 className=' text-6xl font-bold text-white '>Juan Carlos </h1>
+            <h1 className=' text-6xl font-bold text-white'>Juan Carlos </h1>
             <h1 className=' text-6xl font-bold text-white mb-9'>Ramírez Pinilla</h1>
             <h3 className='text-4xl  ml-20 text-white'> Developer Full Stack </h3>
             <p className='text-xl mt-4 text-white'>Entusiasta de la tecnología y con disciplina en el aprendizaje me defino.</p>
