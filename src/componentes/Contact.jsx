@@ -25,6 +25,7 @@ export default function Contact() {
     emailjs.sendForm('service_9wag25i', 'template_gun8396', form.current, '9o3nVGCqSxFDzrRZq')
       .then((result) => {
           alert(result.text = "El mensaje fue enviado con exito");
+          window.location.reload(false)
       }, (error) => {
           console.log(error.text = "El mensaje no pudo ser enviado vuelva a intentarlo");
       });
