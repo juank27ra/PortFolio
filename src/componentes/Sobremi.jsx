@@ -31,15 +31,15 @@ export default function
             <p>En el Campo de la tecnología llevo Año y medio donde pude certificarme como developer full stack y donde he realizado proyectos individuales y uno grupal utilizando metodología scrum y aspirando a encontrar mi primera experiencia laboral IT</p>
           </div>
         </div>
-        <div className=' bg-slate-400/60 rounded-lg hover:shadow-xl hover:shadow-orange-500  h-[34rem] w-96 border-double border-4 border-orange-400 text-center'>
+        {/* <div className=' bg-slate-400/60 rounded-lg hover:shadow-xl hover:shadow-orange-500  h-[34rem] w-96 border-double border-4 border-orange-400 text-center'>
         <h1 className='text-4xl text-orange-500 font-semibold uppercase mt-8 px-4'>porqué contratarme?</h1>
           <div className='my-20 mx-4  text-white text-xl'>
             <p className='m-4 p-2'> ✔️ Me gusta aprender</p>
             <p className='m-4 p-2'> ✔️ Los propósitos del lugar donde trabajo también son los míos</p>
             <p className='m-4 p-2'> ✔️ Aprecio trabajar tanto individual como grupalmente donde lograr los objetivos es lo máximo</p>
-            {/* <p className='m-4 p-2'> ✔️ </p> */}
+            {/* <p className='m-4 p-2'> ✔️ </p> 
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )
