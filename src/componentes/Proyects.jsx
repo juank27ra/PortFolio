@@ -4,6 +4,7 @@ import comics from '../assets/comics.webp'
 import videogames from '../assets/Mario.webp'
 import codigo from '../assets/cod.jpg'
 import tareas from '../assets/tareas.jpg'
+import nappa from '../assets/plp en mobile.png'
 
 export default function Proyects() {
 
@@ -14,11 +15,11 @@ export default function Proyects() {
   return (
      <div className='bg-slate-300 h-screen'>
       <div className='w-max mx-40 py-8 '>
-       <h1 className='text-orange-700 text  font-serif text-4xl p-14 '>Proyectos</h1>
-       </div>
-       <div className='flex flex-row items-center justify-center gap-3'>
+       <h1 className='text-orange-700 text font-serif text-4xl p-14'>Proyectos</h1>
+      </div>
+       <div className='flex flex-row justify-between overflow-hidden items-center w-auto mx-10 gap-3'>
         <div className='flex items-center justify-center bg-slate-300'>
-          <div className='group h-[32rem] w-60 [ perspective:1000ox]'>
+          <div className='group h-[32rem] w-56 [ perspective:1000ox]'>
             <div className='relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]'>
               <div className='absolute insert-0'>
                 <img className='h-[450px] w-full rounded-xl object-cover shadow-xl shadow-black/40' src={comics} alt='imagen' />
@@ -31,8 +32,7 @@ export default function Proyects() {
                 <p className='text-sm'>metodología scrum </p>
                 <p className='text-base'> Ecomerce de comics incluye autenticación pasarela de pago creacion y guardado en base de datos etc</p>
                 <a href='https://e-comics.vercel.app/' target='_blank'><button className='mt-16 rounded-md bg-cyan-600 py-1 px-2 text-sm hover:bg-slate-800'>En vivo</button> </a>
-                <a href='https://github.com/Dagoav/e-comics' target='_blank'><button className='mt-2 rounded-md bg-orange-600 py-1 px-2 text-sm hover:bg-slate-800'>Código Fuente</button> </a>
-                
+                <a href='https://github.com/Dagoav/e-comics' target='_blank'><button className='mt-2 rounded-md bg-orange-600 py-1 px-2 text-sm hover:bg-slate-800'>Código Fuente</button> </a> 
                 </div>
               </div>
             </div>
@@ -84,6 +84,48 @@ export default function Proyects() {
           <div className='group h-[32rem] w-56 [ perspective:1000ox]'>
             <div className='relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]'>
               <div className='absolute insert-0'>
+                <img className='h-[450px] w-full rounded-xl object-fill shadow-xl shadow-black/40' src={nappa} alt='imagen' />
+                <p className='text-center mt-2 text-xl font-bold text-blue-900'>Ecommerce Nappa</p>
+              </div>
+              <div className='absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]'>
+                <div className='flex h-min-full flex-col items-center justify-center my-16' >
+                <h1 className='text-xl font-bold text-cyan-600 '> Ecommerce Nappa</h1>
+                <br/>
+                <p className='text-sm'>Proyecto front-end</p>
+                <p className='text-base'>Este proyecto fue realizado para itglobers, con tecnología vtex io, json, css y react</p>
+                <a href='https://github.com/juank27ra?tab=repositories' target='_blank'>
+                <button className='mt-[11.5rem] rounded-md bg-orange-600 py-1 px-4 w-40 text-sm hover:bg-slate-700'>Imagenes Aqui </button>
+                </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='flex  items-center justify-center bg-slate-300'>
+          <div className='group h-[32rem] w-56 [ perspective:1000ox]'>
+            <div className='relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]'>
+              <div className='absolute insert-0'>
+                <img className='h-[450px] w-full rounded-xl object-fill shadow-xl shadow-black/40' src={nappa} alt='imagen' />
+                <p className='text-center mt-2 text-xl font-bold text-blue-900'>Home AWAQ ONGD</p>
+              </div>
+              <div className='absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]'>
+                <div className='flex h-min-full flex-col items-center justify-center my-16' >
+                <h1 className='text-xl font-bold text-cyan-600 '> Página</h1>
+                <br/>
+                <p className='text-sm'>Proyecto front-end</p>
+                <p className='text-base'>Este proyecto responsivo fue realizado para AWAQ ONGD, en calidad de colaborador como Desarrollador fronted, con tecnología react y tailwindcss</p>
+                <a href='https://github.com/juank27ra?tab=repositories' target='_blank'>
+                <button className='mt-[11.5rem] rounded-md bg-orange-600 py-1 px-4 w-40 text-sm hover:bg-slate-700'>Imagenes Aqui </button>
+                </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='flex  items-center justify-center bg-slate-300'>
+          <div className='group h-[32rem] w-56 [ perspective:1000ox]'>
+            <div className='relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]'>
+              <div className='absolute insert-0'>
                 <img className='h-[450px] w-full rounded-xl object-cover shadow-xl shadow-black/40' src={codigo} alt='imagen' />
                 <p className='text-center mt-2 text-xl font-bold text-blue-900'>Otros Proyectos</p>
               </div>
@@ -107,7 +149,5 @@ export default function Proyects() {
           <button onClick={sccrollDown}><img className='flex justify-center mt-40 animate-bounce h-20' src={arrow} alt='flecha abajo para continuar'/></button>
        </div>
       </div>
-
-
-)
+  )
 }
