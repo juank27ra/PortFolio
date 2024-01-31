@@ -1,15 +1,15 @@
 import { Link } from 'react-router-dom'
 import back from '../assets/back.svg'
+import Footer from './Footer'
 
-export default function 
-() {
+export default function () {
+
   return (
-    <div className='bg-slate-900 h-screen'>
-    <h1 className='text-4xl font-bold p-10 text-orange-400'>Mas sobre mi...</h1>
-    <Link to={'/'}  className='flex justify-start ml-10 mb-4 text-2xl text-white'>Home</Link> 
-    <Link to={'/'}  className='flex justify-end mr-4 mb-4'><img src={back} alt='simbolo de regresar'/></Link> 
-      <div className='flex justify-evenly py-24 bg-slate-800'>
-        <div className=' bg-slate-400/60  rounded-lg hover:shadow-xl hover:shadow-cyan-500  h-[34rem] w-96 border-double border-4 border-cyan-400 text-center'>
+    <div className='bg-[#AEC3B0] h-screen'>
+    <h1 className='text-4xl font-bold p-10 text-[#01161E] '>Mas sobre mi...</h1>
+      <Link to={'/'}  className='flex justify-end mr-4 mb-4'><img src={back} alt='simbolo de regresar'/></Link> 
+      <div className='flex justify-evenly py-24 bg-[#eff6e0]'>
+        {/* <div className=' bg-slate-400/60  rounded-lg hover:shadow-xl hover:shadow-cyan-500  h-[34rem] w-96 border-double border-4 border-cyan-400 text-center'>
         <h1 className='text-4xl text-cyan-500 font-semibold uppercase mt-8 p-4'>Educacion IT</h1>
           <div className='my-16 mx-4  text-white text-xl'>
           <div><p className='m-4 p-2'>✔️ Desarrollador full stack</p> <p></p></div> 
@@ -41,10 +41,10 @@ export default function
             <p className='m-4 p-2'> Diseño Responsivo</p>
              <p className='m-4 p-2'> Integración de API's y servicios externos</p> 
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className='flex p-4'>
-        <h4 className='flex gap-8'>Deseas contactarme... <button>Whatsapp?</button><button>Linkedin?</button><button>Correo?</button></h4>
+      <div className='abdsolute bottom-0'>
+        <Footer></Footer>
       </div>
     </div>
   )

@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mySwiper {
+    --swiper-theme-color: #124559 !important;
+}
