@@ -104,7 +104,6 @@ export default function Contact() {
                     Enviar
                   </button>
                 </div>
-
               </div>
             </form>  
           </div>

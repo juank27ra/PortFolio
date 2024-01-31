@@ -13,9 +13,6 @@ export default function App() {
       <Routes>
         <Route exact path ='/' element={<Home/>} />
         <Route path='/about' element={<Sobremi/>}/>
-        <Route path='/projects' element={<Proyects/>}/>
-        <Route path='/contact' element={<Contact/>}/>
-        {/* <Route path='/' element={</>}/> */}
       </Routes> 
     </div>
     </BrowserRouter>
