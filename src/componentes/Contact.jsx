@@ -57,14 +57,14 @@ export default function Contact() {
 
        <div className='flex flex-col m-auto w-auto'>
           <h1 className='text-[#eff6e0] text-center text-4xl font-semibold sm:text-2xl sm:flex sm:justify-center'>Contáctame Aquí</h1>
-          <div className='border-4 border-double border-[#124559] h-auto max-w-[40rem] mx-auto mt-20 sm:mx-2 p-4 lg:w-[32rem] md:w-[24rem] sm:max-w-[16rem] sm:min-w-[10rem]'>
+          <div className='border-4 border-double border-[#124559] h-auto max-w-[40rem] mx-auto mt-20 sm:mx-2 p-4 lg:w-[32rem] md:w-[24rem] sm:w-[12rem] '>
              <form ref={form} onSubmit={sendEmail}>
               <div >
-                <div className='flex flex-row w-auto object-fill gap-10'>
+                <div className='flex flex-row w-auto object-fill gap-10 sm:gap-3'>
                   <label className='w-1/2 text-[#eff6e0] '>Nombre </label>
                   <label className='w-1/2 text-[#eff6e0] '>Email </label>
                 </div>
-             <div className='flex justify-around gap-10'>
+             <div className='flex justify-around gap-10 sm:gap-3'>
                 <input
                   type='text'
                   name="user_name"
@@ -84,7 +84,7 @@ export default function Contact() {
                 </div>
 
                 <div className='flex'>
-                  <label bel className='text-[#eff6e0]'> Mensaje </label>
+                  <label className='text-[#eff6e0]'> Mensaje </label>
                 </div>
                 <div className='flex justify-center'>
                   <textarea
@@ -99,7 +99,7 @@ export default function Contact() {
                   <button
                     type='submit'
                     value='Enviar'
-                    className='text-xl h-10 my-4 mx-2 bg-[#124559] text-[#eff6e0] cursor-pointer font-semibold border-2 rounded-md hover:bg-gray-100 hover:text-[#124559] hover:font-semibold px-20 duration-1000 snap-start border-[#124559] hover:text-2xl'
+                    className='text-xl h-10 my-4 mx-2 bg-[#124559] text-[#eff6e0] cursor-pointer font-semibold border-2 rounded-md hover:bg-gray-100 hover:text-[#124559] hover:font-semibold px-20 duration-1000 snap-start border-[#124559] hover:text-2xl sm:w-20 sm:justify-center sm:flex  '
                     >
                     Enviar
                   </button>
