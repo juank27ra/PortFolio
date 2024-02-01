@@ -47,7 +47,7 @@ export default function Contact() {
   return (
     <div className='bg-[#598392] h-screen flex flex-row w-auto'>
       <div className='h-auto'>
-        <section className=' absolut flex flex-col justify-center bg-[#124559] items-center h-full w-32 ml-20 gap-8 sm:w-20 md:ml-14 sm:ml-10'>
+        <section className=' absolut flex flex-col justify-center bg-[#124559] items-center h-full w-32 ml-20 gap-8 sm:w-16 md:ml-14 sm:ml-[30%]'>
           <a href='https://www.linkedin.com/in/juan-carlos-ramirez-pinilla-a8518077/' target='_blanc'><img title='LinkedIn' className='h-12 w-12 sm:h-9 sm:w-9 drop-shadow-2xl hover:shadow-blue-400 hover:h-20 hover:w-20 sm:hover:h-16 sm:hover:w-16' src={linkedIn} alt='icono de linkedIn'/></a> 
           <a href='https://github.com/juank27ra' target='_blanc'><img title='Github' className='h-12 w-12 sm:h-9 sm:w-9  drop-shadow-lg hover:shadow-gray-300 hover:h-20 hover:w-20 sm:hover:h-16 sm:hover:w-16' src={github} alt='icono de github'/></a> 
           <a href='mailto: juank27ra@gmail.com' target='_blanc'><img title='Gmail' className='h-12 w-12 sm:h-9 sm:w-9 drop-shadow-lg hover:shadow-red-600 hover:h-20 hover:w-20 sm:hover:h-16 sm:hover:w-16' src={mail} alt='icono de mail'/></a> 

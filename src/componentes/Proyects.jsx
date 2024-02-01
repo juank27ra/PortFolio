@@ -112,19 +112,18 @@ export default function Proyects() {
         projectsJson.map((element, index) => {
           return (
             <SwiperSlide>
-            <div className='flex flex-row h-auto w-full bg-[#AEC3B0] object-fill p-8 items-center'>
+            <div className='flex flex-row h-auto w-full bg-[#AEC3B0] object-fill p-8 items-center sm:px-2'>
               <div className='flex flex-col h-auto w-1/2 overflow-hidden'>
-                {/* <h1 className='text-center py-6 text-xl font-bold text-[#01161E]'>{element.title}</h1> */}
-                <img className=' w-auto h-[25rem] md:h-[22rem] sm:h-[18rem] max-w-xs py-6 flex justify-center mx-auto rounded-lg object-fill px-10 md:px-5 sm:px-2' src={element.img} key={index + 1} alt={element.alt}/>
+                <img className=' w-auto h-[25rem] md:h-[22rem] sm:h-[14rem] max-w-xs py-6 flex justify-center mx-auto rounded-lg object-fill px-10 md:px-5 sm:px-2' src={element.img} key={index + 1} alt={element.alt}/>
               </div>
-              <div className='flex flex-col w-1/2 px-10 lg:px-0 md:px-0 sm:px-0 mx-20 lg:mx-10 md:mx-5 sm:mx-2 text-justify align-middle justify-center h-auto'>
+              <div className='flex flex-col w-1/2 px-10 lg:px-0 md:px-0 sm:px-0 mx-20 lg:mx-10 md:mx-5 sm:mx-2 text-justify align-middle justify-center h-auto sm:scroll-my-4'>
                 <h1 className='text-center py-6 mb-2 text-xl font-bold text-[#01161E]'>{element.title}</h1>
                 <p className='mb-2 text-base md:text-sm sm:text-xs'>{element.description}</p>
                 <p className='mb-2 text-base md:text-sm sm:text-xs'>{element.tecnologías}</p>
                 <p className='mb-2 text-base md:text-sm sm:text-xs'>{element.wayOfWorking}</p>
                 <p className='mb-2 text-base md:text-sm sm:text-xs'>{element.metodology}</p>
-                <a className='flex justify-center' href={element.codigo} target='_blank'><button className=' flex mt-12 rounded-md bg-[#eff6e0] py-1 px-2 hover:bg-[#598392] border-collapse border-2 hover:text-[#eff6e0] text-base md:text-sm sm:text-xs'>Código Fuente</button> </a>  
-                <a className='flex justify-center' href={element.deploy} target='_blank'><button className=' flex mt-4 rounded-md bg-[#eff6e0] py-1 px-2 hover:bg-[#598392] border-collapse border-2 hover:text-[#eff6e0] text-base md:text-sm sm:text-xs'>{element.deploy? "En vivo" : "Disebled"}</button> </a>
+                <a className='flex justify-center' href={element.codigo} target='_blank'><button className=' flex mt-12 rounded-md bg-[#eff6e0] py-1 px-2 hover:bg-[#598392] border-collapse border-2 hover:text-[#eff6e0] text-base md:text-sm sm:text-xs sm:mt-4'>Código Fuente</button> </a>  
+                <a className='flex justify-center' href={element.deploy} target='_blank'><button className=' flex mt-4 rounded-md bg-[#eff6e0] py-1 px-2 hover:bg-[#598392] border-collapse border-2 hover:text-[#eff6e0] text-base md:text-sm sm:text-xs sm:mt-2'>{element.deploy? "En vivo" : "Disebled"}</button> </a>
               </div>
             </div>
             </SwiperSlide>
