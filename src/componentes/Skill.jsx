@@ -54,6 +54,26 @@ const Skill = () => {
           })
         }
       </Swiper>
+      <div className='flex flex-row w-[90%] mx-auto'>
+        <section className='w-[40%] mx-auto font-semibold text-xl text-center'> Backend
+          <ul className=' font-light my-5'>
+            <li>Nodejs</li>
+            <li>Express</li>
+            <li>Postgresql</li>
+            <li>Mongodb</li>
+          </ul>
+        </section>
+        <section className='w-[40%] mx-auto font-semibold text-xl text-center'> Frontend
+          <ul className=' font-light my-5'>
+            <li>React</li>
+            <li>Redux</li>
+            <li>Css</li>
+            <li>Tailwindcss</li>
+            <li>TypeScript</li>
+            <li>Vtex.Io</li>
+          </ul>
+        </section>
+      </div>
     </>
   )
 }

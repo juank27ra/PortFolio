@@ -66,6 +66,7 @@ export default function Contact() {
                 </div>
              <div className='flex justify-around gap-10 sm:gap-3'>
                 <input
+                
                   type='text'
                   name="user_name"
                   onChange={handleChange}
