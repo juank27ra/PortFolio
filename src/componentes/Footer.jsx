@@ -4,7 +4,7 @@ export default function Footer() {
 
 
   return (
-    <footer className='bg-[#01161E] h-14 flex justify-center w-auto sm:h-20 sm:items-center'>
+    <footer className='bg-[#01161E] border-t-2 fixed bottom-0  border-[#eff6e0] h-14 flex justify-center w-[100%] sm:h-20 sm:items-center'>
       <div className="sm:w-1/3">
         <p className="text-[0.675rem] text-[#eff6e0] ml-4 p-4 sm:text-center flex sm:ml-0 sm:p-2 sm:w-auto">Copyright 2024 - Todos los derechos reservados </p>
       </div>

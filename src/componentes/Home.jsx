@@ -1,30 +1,10 @@
-
-
-import Proyects from './Proyects'
-import Contacts from './Contact'
-import Footer from './Footer'
-import Skill from './Skill'
-import Navbar from './Navbar'
 import Profile from './Profile'
 
 function Home() {
 
-
-
   return (
-    <div >
-      <div className='bg-[#eff6e0] h-auto'>
-        <Navbar/>    
-        <Profile/>
-      </div> 
-      <div>
-       <Proyects/>
-      </div>
-        <Skill/>
-      <div>
-      <Contacts/>
-      </div>
-      <Footer/> 
+    <div className=' bg-gradient-to-tl from-[#3b757f] to-[#01161E] h-[100vh] scroll-smooth'>
+      <Profile/>
     </div>
   )
 }

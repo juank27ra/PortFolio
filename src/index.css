@@ -3,5 +3,17 @@
 @tailwind utilities;
 
 .mySwiper {
-    --swiper-theme-color: #124559 !important;
+    --swiper-theme-color: #39c8f7 !important;
+}
+
+.active {
+    color: #39c8f7;
+}
+.TextDouble {
+    color: #eff6e0;
+    font-size: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-family: sans-serif;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;  
 }
