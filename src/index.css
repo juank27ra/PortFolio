@@ -36,3 +36,21 @@
     width: 50%;
     bottom: -10px;
 }
+.hoverAfterNav:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    left: 0%;
+    width: 0%;
+    bottom: -10px;
+}
+.hoverAfterNav:hover:after {
+    transition: 0.5s;
+    content: "";
+    position: absolute;
+    background: #39c8f7;
+    height: 2px;
+    left: 0%;
+    width: 100%;
+    bottom: -5px;
+}
