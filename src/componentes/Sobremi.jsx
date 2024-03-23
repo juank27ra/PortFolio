@@ -7,7 +7,7 @@ export default function () {
   };
 
   return (
-    <div className='bg-gradient-to-tl from-[#3b757f] to-[#01161E] h-[100vh] 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto'>
+    <div className='bg-gradient-to-tl from-[#3b757f] to-[#01161E] min-h-[105rem] h-[100vh] 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto'>
       <div className='flex justify-between mx-5'>
         <h1 className='TextDouble text-8xl sm:text-4xl font-extrabold underline p-4 text-[#eff6e0] mx-auto z-9'>Sobre mí</h1>
       </div>
@@ -20,8 +20,8 @@ export default function () {
             <li className={activeTab == 1 ? "active md:whitespace-normal lg:md:whitespace-normal sm:md:whitespace-normal font-bold w-[20%] text-center" : "w-[20%] text-center whitespace-pre-line text-[#eff6e0]"} onClick={() => seleccionar(1)}>
               <p className="h-20 hover:font-bold text-center sm:text-base ">Servicios</p>
             </li>
-            <li className={activeTab == 2 ? "active md:whitespace-normal lg:md:whitespace-normal sm:md:whitespace-normal font-bold w-[20%] text-center" : "w-[20%] text-center whitespace-pre-line text-[#eff6e0]"} onClick={() => seleccionar(2)}>
-              <p className="h-20 hover:font-bold text-center sm:text-base hover:whitespace-pre">Educacion Certificada</p>
+            <li className={activeTab == 2 ? "active whitespace-normal md:whitespace-normal lg:md:whitespace-normal sm:md:whitespace-normal font-bold w-[20%] text-center" : "w-[20%] text-center whitespace-pre-line text-[#eff6e0]"} onClick={() => seleccionar(2)}>
+              <p className="h-20 hover:font-bold text-center sm:text-base hover:whitespace-normal">Educacion Certificada</p>
             </li>
             <li className={activeTab == 3 ? "active md:whitespace-normal lg:md:whitespace-normal sm:md:whitespace-normal  font-bold w-[20%] text-center" : "w-[20%] text-center whitespace-pre-line text-[#eff6e0]"} onClick={() => seleccionar(3)}>
               <p className="h-20 hover:font-bold text-center sm:text-base whitespace-pre-line">Experiencia It</p>
@@ -36,7 +36,7 @@ export default function () {
                 Nacionalidad:<p className='py-4 text-2xl md:text-xl sm:text-lg '> COLOMBIANO</p>
                 Mobil:<p className='py-4 text-2xl md:text-xl sm:text-lg '> +573224772180</p>
                 Email:<p className='py-4 text-2xl md:text-xl sm:text-lg '> juank27ra@gmail.com</p>
-                <p className='py-4 text-2xl md:text-xl sm:text-lg text-center'>Desarrollador Frontend</p>
+                <p className='py-4 text-2xl md:text-xl sm:text-lg text-center text-[#39c8f7]'>Desarrollador Frontend</p>
                 
               </div>
               }
@@ -45,7 +45,7 @@ export default function () {
               <div className='h-[35rem] text-2xl text-[#eff6e0]'>
                 <ul className=' font-light my-5 text-[#eff6e0] '>
                   <li className='h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase'><p className='relative hoverAfter'>Construccion de páginas web fullstack</p></li>
-                  <li className='h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase'><p className='relative hoverAfter'>Desarrollo de Interfaz gráfica</p></li>
+                  <li className='h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase'><p className='relative hoverAfter'>Desarrollo Front-end</p></li>
                   <li className='h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase'><p className='relative hoverAfter'>Construccion de landing page</p></li>
                   <li className='h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase'><p className='relative hoverAfter'>Integración de API's y servicios externos</p></li>
                   <li className='h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase'><p className='relative hoverAfter'>Diseño Responsivo</p></li>
