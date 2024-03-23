@@ -13,18 +13,18 @@ export default function () {
       </div>
       <div className='flex justify-evenly pb-24'>
       <section className=" md:mx-6 sm:mx-3 h-auto w-[80%]" >
-          <ul className="tabs flex text-2xl justify-end whitespace-nowrap gap-4 cursor-pointer w-[100%] md:whitespace-normal  md:text-base md:text-center md:hover:text-base sm:text-base sm:w-auto sm:whitespace-normal ">
+          <ul className="tabs flex text-2xl justify-end whitespace-nowrap gap-4 cursor-pointer w-[100%] md:whitespace-normal  md:text-sm md:text-center md:hover:text-sm sm:text-sm sm:w-auto sm:whitespace-normal ">
             <li className={activeTab == 0 ? "active md:whitespace-normal xl:whitespace-normal lg:whitespace-normal sm:md:whitespace-normal font-bold w-[20%] text-center justify-center" : "w-[20%]  whitespace-pre-line text-center text-[#eff6e0]"} onClick={() => seleccionar(0)}>
-              <p className="h-20 hover:font-bold text-center sm:text-base">Información Personal</p>
+              <p className="h-20 hover:font-bold text-center md:text-base sm:text-sm">Información Personal</p>
             </li>  
-            <li className={activeTab == 1 ? "active md:whitespace-normal lg:md:whitespace-normal sm:md:whitespace-normal font-bold w-[20%] text-center" : "w-[20%] text-center whitespace-pre-line text-[#eff6e0]"} onClick={() => seleccionar(1)}>
-              <p className="h-20 hover:font-bold text-center sm:text-base ">Servicios</p>
+            <li className={activeTab == 1 ? "active md:whitespace-normal sm:ml-2  lg:md:whitespace-normal sm:md:whitespace-normal font-bold w-[20%] text-center" : " sm:ml-2 w-[20%] text-center whitespace-pre-line text-[#eff6e0]"} onClick={() => seleccionar(1)}>
+              <p className="h-20 hover:font-bold text-center md:text-base sm:text-sm sm:ml-2  ">Servicios</p>
             </li>
             <li className={activeTab == 2 ? "active whitespace-normal md:whitespace-normal lg:md:whitespace-normal sm:md:whitespace-normal font-bold w-[20%] text-center" : "w-[20%] text-center whitespace-pre-line text-[#eff6e0]"} onClick={() => seleccionar(2)}>
-              <p className="h-20 hover:font-bold text-center sm:text-base hover:whitespace-normal">Educacion Certificada</p>
+              <p className="h-20 hover:font-bold text-center md:text-base sm:text-sm hover:whitespace-normal">Educacion Certificada</p>
             </li>
             <li className={activeTab == 3 ? "active md:whitespace-normal lg:md:whitespace-normal sm:md:whitespace-normal  font-bold w-[20%] text-center" : "w-[20%] text-center whitespace-pre-line text-[#eff6e0]"} onClick={() => seleccionar(3)}>
-              <p className="h-20 hover:font-bold text-center sm:text-base whitespace-pre-line">Experiencia It</p>
+              <p className="h-20 hover:font-bold text-center md:text-base sm:text-sm whitespace-pre-line">Experiencia It</p>
             </li>  
           </ul>
           <div className='flex flex-row w-[100%] h-auto  mx-auto'>
