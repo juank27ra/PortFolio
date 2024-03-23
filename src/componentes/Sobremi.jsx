@@ -9,13 +9,13 @@ export default function () {
   return (
     <div className='bg-gradient-to-tl from-[#3b757f] to-[#01161E] h-[100vh] 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto'>
       <div className='flex justify-between mx-5'>
-        <h1 className='TextDouble text-8xl sm:text-4xl font-extrabold p-4 text-[#eff6e0] mx-auto z-9'>Sobre mi</h1>
+        <h1 className='TextDouble text-8xl sm:text-4xl font-extrabold underline p-4 text-[#eff6e0] mx-auto z-9'>Sobre mí</h1>
       </div>
       <div className='flex justify-evenly pb-24'>
       <section className=" md:mx-6 sm:mx-3 h-auto w-[80%]" >
           <ul className="tabs flex text-2xl justify-end whitespace-nowrap gap-4 cursor-pointer w-[100%] md:whitespace-normal  md:text-base md:text-center md:hover:text-base sm:text-base sm:w-auto sm:whitespace-normal ">
             <li className={activeTab == 0 ? "active md:whitespace-normal xl:whitespace-normal lg:whitespace-normal sm:md:whitespace-normal font-bold w-[20%] text-center justify-center" : "w-[20%]  whitespace-pre-line text-center text-[#eff6e0]"} onClick={() => seleccionar(0)}>
-              <p className="h-20 hover:font-bold text-center sm:text-base ">Información Personal</p>
+              <p className="h-20 hover:font-bold text-center sm:text-base">Información Personal</p>
             </li>  
             <li className={activeTab == 1 ? "active md:whitespace-normal lg:md:whitespace-normal sm:md:whitespace-normal font-bold w-[20%] text-center" : "w-[20%] text-center whitespace-pre-line text-[#eff6e0]"} onClick={() => seleccionar(1)}>
               <p className="h-20 hover:font-bold text-center sm:text-base ">Servicios</p>
@@ -31,28 +31,24 @@ export default function () {
             <div className="tab-content w-[60%] lg:w-[70%] md:w-[80%] sm:w-[90%] lg:h-auto md:h-auto sm:h-auto z-0 mx-auto">
               {
               activeTab === 0 && 
-              <div className='flex min-h-[35rem] h-auto  w-auto  bg-[#01161E] py-6 px-10 sm:px-6 lg:h-auto md:h-auto sm:h-auto text-2xl md:text-lg sm:text-base text-[#eff6e0]'>
-                NOMBRE: Juan Carlos Ramirez<br/>
-                NACIONALIDAD: Colombiano<br/>
-                MOBIL: +573224772180<br/>
-                <br/>
-                CON DISCIPLINA Y MOTIVACIÓN<br/>
-                <br/>
-                Entregado a la lectura es una caracteristica, porque es allí donde puedo crecer en muchos aspectos de la vida como: el desarrollo personal, la tecnología, financieramente, la espiritualidad, y entre otros temas. En este sentido soy muy tradicional, prefiero hacerlo directamente de libros impresos teniendo contacto con el papel.
-                <br/>
-                <br/>
-                Encantado de la tecnología y la imnovación por ello me gustaría estar inmerso en proyectos que propongan novedad, comodidad para las personas y sobre todo un servicio top Ten, para impactar a muchas personas y sobre todo contribuir a la felicidad.
+              <div className='flex flex-col min-h-[35rem] h-auto w-auto  bg-[#01161E] py-16 px-10 sm:px-6 lg:h-auto md:h-auto sm:h-auto text-lg md:text-base sm:text-sm text-[#eff6e0]'>
+                Nombre:<p className='py-4 text-2xl md:text-xl sm:text-lg '> JUAN CARLOS RAMIREZ PINILLA</p>
+                Nacionalidad:<p className='py-4 text-2xl md:text-xl sm:text-lg '> COLOMBIANO</p>
+                Mobil:<p className='py-4 text-2xl md:text-xl sm:text-lg '> +573224772180</p>
+                Email:<p className='py-4 text-2xl md:text-xl sm:text-lg '> juank27ra@gmail.com</p>
+                <p className='py-4 text-2xl md:text-xl sm:text-lg text-center'>Desarrollador Frontend</p>
+                
               </div>
               }
               {
               activeTab === 1 && 
               <div className='h-[35rem] text-2xl text-[#eff6e0]'>
                 <ul className=' font-light my-5 text-[#eff6e0] '>
-                  <li className='h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase '>Construccion de páginas web fullstack</li>
-                  <li className='h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase '>Desarrollo de Interfaz gráfica</li>
-                  <li className='h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase '>Construccion de landing page</li>
-                  <li className='h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase '>Integración de API's y servicios externos</li>
-                  <li className='h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase '>Diseño Responsivo</li>
+                  <li className='h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase'><p className='relative hoverAfter'>Construccion de páginas web fullstack</p></li>
+                  <li className='h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase'><p className='relative hoverAfter'>Desarrollo de Interfaz gráfica</p></li>
+                  <li className='h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase'><p className='relative hoverAfter'>Construccion de landing page</p></li>
+                  <li className='h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase'><p className='relative hoverAfter'>Integración de API's y servicios externos</p></li>
+                  <li className='h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase'><p className='relative hoverAfter'>Diseño Responsivo</p></li>
                 </ul>
               </div>
               }

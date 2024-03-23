@@ -56,7 +56,7 @@ export default function Contact() {
         </section>
         <div className='flex flex-col mx-auto w-[90%]'>
           <div className='flex justify-between mx-auto w-[100%]'>
-            <h1 className='TextDouble text-8xl xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl font-extrabold p-4 text-[#eff6e0] mx-auto z-9'>Contáctame</h1>
+            <h1 className='TextDouble text-8xl xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl font-extrabold underline p-4 text-[#eff6e0] mx-auto z-9'>Contáctame</h1>
           </div>
           <div className='border-4 border-double border-[#eff6e0] h-auto max-w-[40rem] mx-auto mt-20 sm:m-auto p-4 lg:w-[32rem] md:w-[24rem] sm:w-[20rem] sm:max-w-[24rem] '>
              <form ref={form} onSubmit={sendEmail}>
