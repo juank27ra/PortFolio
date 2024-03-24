@@ -4,8 +4,6 @@ import github from '../assets/github.svg'
 import mail from '../assets/google-gmail.svg'
 import whatsapp from '../assets/whatsapp-icon.svg'
 import emailjs from '@emailjs/browser'
-import { IoArrowBackCircleOutline } from "react-icons/io5";
-import { Link } from 'react-router-dom'
 
 export default function Contact() {
   const form = useRef();
