@@ -5,6 +5,7 @@ import Sobremi from './componentes/Sobremi';
 import Footer from './componentes/Footer';
 import Contact from './componentes//Contact';
 import Proyectos from './componentes/Proyects'
+import Error404 from './componentes/Error404'
 
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
     <BrowserRouter>
       <Navbar/>
         <Routes>
+          <Route path ='*' element={<Error404/>} />
           <Route exact path ='/' element={<Home/>} />
           <Route path='/about' element={<Sobremi/>}/>
           <Route path='/proyects' element={<Proyectos/>}/>
