@@ -13,11 +13,11 @@ export default function App() {
     <BrowserRouter>
       <Navbar/>
         <Routes>
-          <Route path ='*' element={<Error404/>} />
           <Route exact path ='/' element={<Home/>} />
           <Route path='/about' element={<Sobremi/>}/>
           <Route path='/proyects' element={<Proyectos/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          <Route path ='*' element={<Error404/>} />
         </Routes> 
       <Footer/>
     </BrowserRouter>
