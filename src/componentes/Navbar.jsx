@@ -1,5 +1,5 @@
 import React from 'react'
-import pdfcv from '../assets/CV Juan Ramirez24.pdf'
+import pdfcv from '../assets/CV JCRP.pdf'
 import { FaHouse } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 

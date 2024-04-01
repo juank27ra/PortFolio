@@ -17,6 +17,9 @@ module.exports = {
       "2xl": { min: "1281px" }, // desktop
     },
     extend: {},
+    fontFamily: {
+      'open-sans': ['Open Sans', 'sans-serif'],
+    },
   },
   plugins: [],
 }
