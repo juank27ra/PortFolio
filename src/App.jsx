@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes, HashRouter } from 'react-router-dom';
 import Navbar from './componentes/Navbar';
 import Home from './componentes/Home'
 import Sobremi from './componentes/Sobremi';
@@ -10,7 +10,7 @@ import Error404 from './componentes/Error404'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar/>
         <Routes>
           <Route exact path ='/' element={<Home/>} />
@@ -20,6 +20,6 @@ export default function App() {
           <Route path ='*' element={<Error404/>} />
         </Routes> 
       <Footer/>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
