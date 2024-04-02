@@ -40,7 +40,7 @@ export default function Contact() {
 
   return (
     <div className='h-auto '>
-    <div className='bg-gradient-to-tl from-[#3b757f] to-[#01161E] h-screen flex flex-row w-auto sm:flex-col sm:w-auto'>
+    <div className='bg-gradient-to-tl from-[#3b757f] to-[#01161E] h-[50rem] 2xl:h-[60rem] flex flex-row w-auto sm:flex-col sm:w-auto'>
         <section className=' absolut flex flex-col sm:flex-row sm:h-20 sm:w-[100%] sm:ml-0 justify-center bg-[#01161E] items-center h-full w-32 ml-20 gap-8 md:ml-14'>
           <a href='https://www.linkedin.com/in/juan-carlos-ramirez-pinilla-a8518077/' target='_blanc'><img title='LinkedIn' className='h-12 w-12 sm:h-9 sm:w-9 drop-shadow-2xl hover:shadow-blue-400 hover:h-20 hover:w-20 sm:hover:h-16 sm:hover:w-16' src={linkedIn} alt='icono de linkedIn'/></a> 
           <a href='https://github.com/juank27ra' target='_blanc'><img title='Github' className='h-12 w-12 sm:h-9 sm:w-9  drop-shadow-lg hover:shadow-gray-300 hover:h-20 hover:w-20 sm:hover:h-16 sm:hover:w-16' src={Github} alt='icono de github'/></a> 

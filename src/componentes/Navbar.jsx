@@ -1,5 +1,4 @@
-import React from 'react'
-import pdfcv from '../assets/CV JCRP.pdf'
+import  pdfcv  from '../assets/CV JCRP.pdf'
 import { FaHouse } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 import { SiAboutdotme } from "react-icons/si";
@@ -22,7 +21,7 @@ const Navbar = () => {
           <Link to='/about' className=' z-10 text-xl md:text-lg font-bold  text-[#eff6e0] my-auto  hover:text-[#39c8f7] hover:scale-125 md:hover:scale-110 selection:text-[##39c8f7] relative hoverAfterNav'> Sobre mí </Link>  
           <Link to='/proyects' className=' z-10 text-xl md:text-lg font-bold  text-[#eff6e0] my-auto  hover:text-[#39c8f7] hover:scale-125 md:hover:scale-110 selection:text-[##39c8f7] relative hoverAfterNav'> Proyectos </Link>  
           <Link to='/contact' className=' z-10 text-xl md:text-lg font-bold  text-[#eff6e0] my-auto  hover:text-[#39c8f7] hover:scale-125 md:hover:scale-110 selection:text-[##39c8f7] relative hoverAfterNav'> Contácteme </Link>  
-        <Link to={pdfcv} target='_blank'  className=' z-10 text-xl md:text-lg font-bold  text-[#eff6e0] my-auto p-4 shadow-md  shadow-[#eff6e0] hover:text-[#39c8f7] selection:text-[#39c8f7] hover:shadow-md  hover:shadow-[#39c8f7] sm:w-[12rem] sm:flex sm:justify-end'> Ver/Descargar cv </Link>
+        <a href={pdfcv} target='_blank'  className=' z-10 text-xl md:text-lg font-bold  text-[#eff6e0] my-auto p-4 shadow-md  shadow-[#eff6e0] hover:text-[#39c8f7] selection:text-[#39c8f7] hover:shadow-md  hover:shadow-[#39c8f7] sm:w-[12rem] sm:flex sm:justify-end'> Ver/Descargar cv </a>
       </nav>
       <nav className='w-[100%] h-24 sm:h-24 bg-[#01161E] border-b-2 border-[#eff6e0] px-10 2xl:hidden xl:hidden lg:hidden md:hidden'>
         <div className="absolute top-5 left-14 ">
