@@ -69,7 +69,7 @@ export default function () {
                                 <h3 className="mb-3 font-bold text-white text-2xl">Ciberseguridad de Google</h3>
                                 <time className="pb-4 text-sm text-gray-100">Coursera and Colnodo (sep/2023 - marzo/2024)</time>
                                 <hr />
-                                <p className="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100">The education should be very </p>
+                                <p className="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100">Con el desglose de 8 cursos me introduje en la ciberseguridad, creando una mentalidad apropiada para hacer de nuestros proyectos un lugar más seguro en la web. </p>
                                 <br />
                                 <a href='https://coursera.org/share/fa1e983af6f13c68eb973b09a21c3491' target='_blanck'><button className='text-lg text-[#39c8f7]'>ver Certificado</button></a>
                               </div>
@@ -86,7 +86,7 @@ export default function () {
                                 <h3 className="mb-3 font-bold text-white text-2xl">FRONTEND DEVELOPER</h3>
                                 <p className="pb-4 text-sm text-gray-100">Platzi (2023)</p>
                                 <hr />
-                                <p className="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                                <p className="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100">Curso Substancioso de Platzi en el que me oriento y quiero saber más de la experiencia de usuario.</p>
                                 <br/>
                                 <a href='https://platzi.com/p/juank27ra/curso/2467-frontend-developer/diploma/detalle/' target='_blanck'><button className='text-lg text-[#39c8f7]'>ver Certificado</button></a>
                               </div>
@@ -103,7 +103,7 @@ export default function () {
                                 <h3 className="mb-3 font-bold text-white text-2xl">Full Stack Web Developer</h3>
                                 <p className="pb-4 text-sm text-gray-100">Bootcamp Henry (2022)</p>
                                 <hr />
-                                <p className="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                                <p className="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100">Maravilloso Bootcamp para crear experiencia inmenrsiva en el desarrollo web. Más que aprender un stack de tecnologías, aprendí a ser equipo, a investigar y a utilizar la misma tecnología para plasmar la investigación. </p>
                                 <br/>
                                 <a href='https://certificates.soyhenry.com/cert?id=168723d4-b75d-40ac-8020-4f1f524f0b82' target='_blanck'><button className='text-lg text-[#39c8f7]'>ver Certificado</button></a>
                               </div>
@@ -120,7 +120,7 @@ export default function () {
                                 <h3 className="mb-3 font-bold text-white text-2xl">Compilaciones de aplicaciones Javascript con typescript</h3>
                                 <p className="pb-4 text-sm text-gray-100">Microsoft (2022)</p>
                                 <hr />
-                                <p className="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                                <p className="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100">Aprendí el surperSet de javascript para obtener a través del tipado, los datos esperados evitando errores en nuestras apps.</p>
                                 <br/>
                                 <a href='https://learn.microsoft.com/es-es/training/paths/build-javascript-applications-typescript/' target='_blanck'><button className='text-lg text-[#39c8f7]'>ver Certificado</button></a>
                               </div>
@@ -137,7 +137,7 @@ export default function () {
                                 <h3 className="mb-3 font-bold text-white text-2xl">Scrum Fundamentals cetified</h3>
                                 <p className="pb-4 text-sm text-gray-100">SCRUMStudy (2022)</p>
                                 <hr />
-                                <p className="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p>
+                                <p className="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100">Desarrollé una mentalidad más profunda de la metodología Scrum para aplicar tanto en trabajos individuales como en equipo, logrando así más productividad.</p>
                                 <br/>
                                 <a href='https://www.linkedin.com/feed/update/urn:li:activity:6983292878701666304/' target='_blanck'><button className='text-lg text-[#39c8f7]'>ver Certificado</button></a>
                               </div>
@@ -153,15 +153,15 @@ export default function () {
               activeTab === 3 && 
               <div className='h-[40rem]  max-h-[50rem] text-2xl text-[#eff6e0] my-10'>
               <ul className=' font-light my-5 text-[#eff6e0] '>
-                <li className='h-auto my-2 py-5 px-10  text-center bg-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase '>
-                  Itglobers
-                  <p className='normal-case py-5  text-base text-justify'>Con una experiencia inmersiva totalmente en el mundo del ecommerce con tecnología Vtex Io, desarrollé la réplica del ecommerce NAPPA Colombia con todos sus componentes, como pasarela de pago, carrito de compra, favoritos, entre otros propios de un ecommerce. Trabajé con metodologías ágiles y el proyecto además de la tecnología de base, también, se realizó con Json, React, BEM y Css</p>
-                  <a target='_blanck' href={'https://www.itglobers.com/'}><button  className='flex justify-start p-2 border-2 border-[#39c8f7] text-[#39c8f7]'>Ver Empresa</button></a>
-                </li>
                 <li className='h-auto my-2 py-5 px-10 text-center bg-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase '>
                   Awaq ONGD
                   <p className='normal-case py-5 text-base text-justify'>Awaq, es una organización no gubernamental de desarrollo en la cual, colaboro actualmente como desarrollador Frontend. Aquí he tenido la oportunidad de crecer en la práctica del código y lógica, he participado en dos proyectos y estaré liderando dos equipos de desarrollo para implementar mejoras; he contribuido y asistido a reuniones virtuales y he podido participar en todo el ciclo de vida de proyectos importantes hasta ser públicos; finalmente adicionar que manejamos metodología Agiles, utilizamos React, tailwindcss, typescript, trello y otras tecnologias secundarias.</p>
                   <a target='_blanck' href={'https://www.somosawaq.org/'}><button  className='flex justify-start p-2 border-2 border-[#39c8f7] text-[#39c8f7]'>Ver Empresa</button></a>
+                </li>
+                <li className='h-auto my-2 py-5 px-10  text-center bg-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase '>
+                  Itglobers
+                  <p className='normal-case py-5  text-base text-justify'>Con una experiencia inmersiva totalmente en el mundo del ecommerce con tecnología Vtex Io, desarrollé la réplica del ecommerce NAPPA Colombia con todos sus componentes, como pasarela de pago, carrito de compra, favoritos, entre otros propios de un ecommerce. Trabajé con metodologías ágiles y el proyecto además de la tecnología de base, también, se realizó con Json, React, BEM y Css</p>
+                  <a target='_blanck' href={'https://www.itglobers.com/'}><button  className='flex justify-start p-2 border-2 border-[#39c8f7] text-[#39c8f7]'>Ver Empresa</button></a>
                 </li>
               </ul>                
               </div>
