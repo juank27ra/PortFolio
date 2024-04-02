@@ -25,11 +25,10 @@ const Navbar = () => {
         <a href={pdfcv} target='_blank'  className=' z-10 text-xl md:text-lg font-bold  text-[#eff6e0] my-auto p-4 shadow-md  shadow-[#eff6e0] hover:text-[#39c8f7] selection:text-[#39c8f7] hover:shadow-md  hover:shadow-[#39c8f7] sm:w-[12rem] sm:flex sm:justify-end'> Ver/Descargar cv </a>
       </nav>
       <nav className='w-[100%] h-24 sm:h-24 bg-[#01161E] border-b-2 border-[#eff6e0] px-10 2xl:hidden xl:hidden lg:hidden md:hidden'>
-        <div className="absolute top-5 left-14 ">
+        <div className="absolute top-5 left-6 ">
           <SpeedDial placement="right">
             <SpeedDialHandler> 
               <IconButton size="lg" className="rounded-full bg-[#eff6e0]">
-                {/* <PlusIcon className="h-5 w-5 transition-transform group-hover:rotate-45 stroke-[#01161E] hover:stroke-[#39c8f7]" /> */}
                 <HiPlusSmall   className="h-8 w-8 transition-transform group-hover:rotate-45 fill-[#01161E] hover:fill-[#39c8f7]" />
               </IconButton>
             </SpeedDialHandler>
