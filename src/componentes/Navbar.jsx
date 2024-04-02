@@ -5,6 +5,7 @@ import { SiAboutdotme } from "react-icons/si";
 import { GrProjects } from "react-icons/gr";
 import { RiMailSendFill } from "react-icons/ri";
 import { HiPlusSmall } from "react-icons/hi2";
+import { PiFilePdfBold } from "react-icons/pi";
 import {
   IconButton,
   SpeedDial,
@@ -44,6 +45,9 @@ const Navbar = () => {
               </SpeedDialAction>
               <SpeedDialAction className="bg-[#eff6e0]">
                 <Link to='/contact'><RiMailSendFill className='h-5 w-5 fill-[#01161E] my-auto hover:scale-125 hover:fill-[#39c8f7]'/></Link>  
+              </SpeedDialAction>
+              <SpeedDialAction className="bg-[#eff6e0]">
+                <a href={pdfcv} target='_blank'><PiFilePdfBold className='h-5 w-5 fill-[#01161E] my-auto hover:scale-125 hover:fill-[#39c8f7]'/></a>  
               </SpeedDialAction>
             </SpeedDialContent>
           </SpeedDial>
