@@ -156,7 +156,7 @@ export default function () {
                 <li className='h-auto my-2 py-5 px-10 text-center bg-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase '>
                   Awaq ONGD
                   <p className='normal-case py-5 text-base text-justify'>Awaq, es una organización no gubernamental de desarrollo en la cual, colaboro actualmente como desarrollador Frontend. Aquí he tenido la oportunidad de crecer en la práctica del código y lógica, he participado en dos proyectos y estaré liderando dos equipos de desarrollo para implementar mejoras; he contribuido y asistido a reuniones virtuales y he podido participar en todo el ciclo de vida de proyectos importantes hasta ser públicos; finalmente adicionar que manejamos metodología Agiles, utilizamos React, tailwindcss, typescript, trello y otras tecnologias secundarias.</p>
-                  <a target='_blanck' href={'https://www.somosawaq.org/'}><button  className='flex justify-start p-2 border-2 border-[#39c8f7] text-[#39c8f7]'>Ver Empresa</button></a>
+                  <a target='_blanck' href={'https://somosawaq.org/'}><button  className='flex justify-start p-2 border-2 border-[#39c8f7] text-[#39c8f7]'>Ver Empresa</button></a>
                 </li>
                 <li className='h-auto my-2 py-5 px-10  text-center bg-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase '>
                   Itglobers
