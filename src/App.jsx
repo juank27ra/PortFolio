@@ -19,10 +19,10 @@ export default function App() {
             <Route exact path ='/' element={
             <>
               <Helmet>
-                <title>Juan Carlos Ramirez Pinilla</title>
+                <title>Juan Ramirez </title>
                 <meta name='description' content='Desarrollador fullStack orientado más al frontend' />
                 <link rel="canonical" href="/"/>
-                <meta property="og:title" content="Juan Carlos Ramirez Pinilla" />
+                <meta property="og:title" content="Juan Ramirez" />
                 <meta property="og:description" content="Desarrollador fullStack orientado más al frontend" />
                 <meta property="og:url" content="https://jcrp.vercel.app/" />
                 <meta property="og:image" content={juan} />
