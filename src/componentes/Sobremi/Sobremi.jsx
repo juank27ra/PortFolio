@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { IoCheckboxSharp } from "react-icons/io5";
 
 export default function () {
   const [activeTab, setactiveTab] = useState(0);
@@ -49,7 +50,7 @@ export default function () {
               onClick={() => seleccionar(2)}
             >
               <p className="h-20 hover:font-bold text-center md:text-base sm:text-sm hover:whitespace-normal">
-                Educacion Certificada
+                Educación Certificada
               </p>
             </li>
             <li
@@ -68,31 +69,73 @@ export default function () {
           <div className="flex flex-row w-[100%] h-auto  mx-auto">
             <div className="tab-content w-[60%] lg:w-[70%] md:w-[80%] sm:w-[90%] lg:h-auto md:h-auto sm:h-auto z-0 mx-auto">
               {activeTab === 0 && (
-                <div className="flex flex-col min-h-[35rem] h-auto w-auto  bg-[#01161E] py-16 px-10 sm:px-6 lg:h-auto md:h-auto sm:h-auto text-lg md:text-base sm:text-sm text-[#eff6e0]">
-                  Nombre:
-                  <p className="py-4 text-2xl md:text-xl sm:text-lg ">
-                    {" "}
-                    JUAN CARLOS RAMIREZ PINILLA
-                  </p>
-                  Nacionalidad:
-                  <p className="py-4 text-2xl md:text-xl sm:text-lg ">
-                    {" "}
-                    COLOMBIANO
-                  </p>
-                  Mobil:
-                  <p className="py-4 text-2xl md:text-xl sm:text-lg ">
-                    {" "}
-                    +573224772180
-                  </p>
-                  Email:
-                  <p className="py-4 text-2xl md:text-xl sm:text-lg ">
-                    {" "}
-                    juank27ra@gmail.com
-                  </p>
-                  <p className="py-4 text-2xl md:text-xl sm:text-lg text-center text-[#39c8f7]">
-                    Desarrollador Frontend
-                  </p>
-                </div>
+                <>
+                  <div className="flex flex-col min-h-[35rem] h-auto w-auto  bg-[#01161E] py-16 px-10 sm:px-6 lg:h-auto md:h-auto sm:h-auto text-lg md:text-base sm:text-sm text-[#eff6e0]">
+                    <p className="py-4 mb-10 text-2xl md:text-xl sm:text-lg text-center text-[#39c8f7]">
+                      DATOS PERSONALES
+                    </p>
+                    Nombre:
+                    <p className="py-4 text-2xl md:text-xl sm:text-lg ">
+                      {" "}
+                      JUAN CARLOS RAMIREZ PINILLA
+                    </p>
+                    Nacionalidad:
+                    <p className="py-4 text-2xl md:text-xl sm:text-lg ">
+                      {" "}
+                      COLOMBIANO
+                    </p>
+                    Mobil:
+                    <p className="py-4 text-2xl md:text-xl sm:text-lg ">
+                      {" "}
+                      +573224772180
+                    </p>
+                    Email:
+                    <p className="py-4 text-2xl md:text-xl sm:text-lg ">
+                      {" "}
+                      juank27ra@gmail.com
+                    </p>
+                  </div>
+
+                  <div className="flex flex-col min-h-[35rem] h-auto w-auto  bg-[#01161E] py-16 px-10 sm:px-6 lg:h-auto md:h-auto sm:h-auto text-lg md:text-base sm:text-sm text-[#eff6e0]">
+                    <p className="pb-4 mb-10 text-2xl md:text-xl sm:text-lg text-center text-[#39c8f7]">
+                      {" "}
+                      HABILIDADES BLANDAS
+                    </p>
+
+                    <ul className="py-4 text-2xl md:text-xl sm:text-lg flex-col gap-10">
+                      {" "}
+                      <li className="flex gap-8">
+                        <IoCheckboxSharp /> Trabajo en equipo y en colaboración.
+                      </li>
+                      <li className="flex gap-8">
+                        <IoCheckboxSharp /> Manejo de metodologías Ágiles
+                        (scrum).
+                      </li>
+                      <li className="flex gap-8">
+                        <IoCheckboxSharp /> Gestión del tiempo.
+                      </li>
+                      <li className="flex gap-8">
+                        <IoCheckboxSharp /> Adaptibilidad y Flexibilidad.
+                      </li>
+                      <li className="flex gap-8">
+                        <IoCheckboxSharp /> Escucha activa.
+                      </li>
+                      <li className="flex gap-8">
+                        <IoCheckboxSharp /> Resolución de problemas.
+                      </li>
+                      <li className="flex gap-8">
+                        <IoCheckboxSharp /> Capacidad de Aprendizaje y
+                        Desarrollo Continuo.
+                      </li>
+                      <li className="flex gap-8">
+                        <IoCheckboxSharp /> Responsabilidad.
+                      </li>
+                      <li className="flex gap-8">
+                        <IoCheckboxSharp /> Ética Laboral.
+                      </li>
+                    </ul>
+                  </div>
+                </>
               )}
               {activeTab === 1 && (
                 <div className="h-[35rem] text-2xl text-[#eff6e0]">
