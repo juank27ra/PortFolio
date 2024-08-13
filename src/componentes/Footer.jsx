@@ -1,16 +1,32 @@
-
-
 export default function Footer() {
-
-
   return (
-    <footer className='bg-[#01161E] border-t-2 fixed bottom-0  border-[#eff6e0] h-14 flex justify-center w-[100%] sm:h-20 sm:items-center'>
+    <footer className="bg-[#01161E] z-50 border-t-2 rounded-xl fixed bottom-0  border-[#eff6e0] h-14 flex justify-center w-[100%] sm:h-20 sm:items-center">
       <div className="sm:w-1/3">
-        <p className="text-[0.675rem] text-[#eff6e0] ml-4 p-4 sm:text-center flex sm:ml-0 sm:p-2 sm:w-auto">Copyright 2024 - Todos los derechos reservados </p>
+        <p className="text-[0.675rem] text-[#eff6e0] ml-4 p-4 sm:text-center flex sm:ml-0 sm:p-2 sm:w-auto">
+          Copyright 2024 - Todos los derechos reservados{" "}
+        </p>
       </div>
-        <a target="_blank" href="https://www.linkedin.com/in/juan-ramirez-p/" className="text-sm text-[#eff6e0] p-4 ml-40 sm:ml-4 hover:text-blue-600 md:ml-20 ">LinkedIn </a>
-        <a target="_blank" href="https://github.com/juank27ra" className="text-sm text-[#eff6e0] ml-4 p-4 hover:text-gray-600 sm:ml-2 ">Github </a>
-        <a target="_blank" href="https://wa.me/573224772180" className="text-sm text-[#eff6e0] ml-4 p-4 hover:text-green-600 sm:ml-2 ">whatsapp </a>
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/juan-ramirez-p/"
+        className="text-sm hover:text-[#eff6e0] p-4 ml-40 sm:ml-4 text-blue-600 md:ml-20 "
+      >
+        LinkedIn{" "}
+      </a>
+      <a
+        target="_blank"
+        href="https://github.com/juank27ra"
+        className="text-sm hover:text-[#eff6e0] ml-4 p-4 text-gray-600 sm:ml-2 "
+      >
+        Github{" "}
+      </a>
+      <a
+        target="_blank"
+        href="https://wa.me/573224772180"
+        className="text-sm hover:text-[#eff6e0] ml-4 p-4 text-green-600 sm:ml-2 "
+      >
+        whatsapp{" "}
+      </a>
     </footer>
-  )
+  );
 }

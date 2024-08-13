@@ -59,7 +59,7 @@ const Skill = () => {
                     alt=""
                     src={e}
                     key={i}
-                    className="object-fill rounded-full border-2 border-[#39c8f7] p-2 h-20 w-20 lg:w-16 lg:h-16 md:h-16 md:w-16 sm:h-10 sm:w-10 sm:p-0.5"
+                    className="object-fill rounded-xl border-y-2 border-[#eff6e0] p-2 h-20 w-20 lg:w-16 lg:h-16 md:h-16 md:w-16 sm:h-10 sm:w-10 sm:p-0.5"
                   />
                 </section>
               </SwiperSlide>
@@ -70,48 +70,51 @@ const Skill = () => {
       <div className=" grid grid-cols-2 gap-4 py-20 mx-[16%] max-w-[120rem]">
         <section className="w-[40%] md:w-[60%] sm:w-[80%] mx-auto font-semibold text-2xl text-center text-[#39c8f7]">
           {" "}
-          Backend
+          Back-end
         </section>
         <section className="w-[40%] md:w-[60%] sm:w-[80%] mx-auto font-semibold text-2xl text-center text-[#39c8f7]">
-          Frontend{" "}
+          Front-end{" "}
         </section>
-        <ul className=" font-light my-5 text-[#eff6e0] ">
-          <li className="h-20 my-2 py-5 text-center bg-gradient-to-t from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase  border-2 border-t-white">
+        <ul className=" font-light my-5  text-[#eff6e0] ">
+          <li className="h-20 rounded-xl border-y-2 my-2 py-5 text-center bg-gradient-to-t from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase border-[#eff6e0]">
             Nodejs
           </li>
-          <li className="h-20 my-2 py-5 text-center bg-gradient-to-t from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase  border-2 border-t-white">
+          <li className="h-20 rounded-xl border-y-2 my-2 py-5 text-center bg-gradient-to-t from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase border-[#eff6e0]">
             Express
           </li>
-          <li className="h-20 my-2 py-5 text-center bg-gradient-to-t from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase  border-2 border-t-white">
+          <li className="h-20 rounded-xl border-y-2 my-2 py-5 text-center bg-gradient-to-t from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase border-[#eff6e0]">
             Postgresql
           </li>
-          <li className="h-20 my-2 py-5 text-center bg-gradient-to-t from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase  border-2 border-t-white">
+          <li className="h-20 rounded-xl border-y-2 my-2 py-5 text-center bg-gradient-to-t from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase border-[#eff6e0]">
             Mongodb
           </li>
-          <li className="h-20 my-2 py-5 text-center bg-gradient-to-t from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase  border-2 border-t-white">
+          <li className="h-20 rounded-xl border-y-2 my-2 py-5 text-center bg-gradient-to-t from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase border-[#eff6e0]">
             TypeScript
+          </li>
+          <li className="h-20 rounded-xl border-y-2 my-2 py-5 text-center bg-gradient-to-t from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase border-[#eff6e0]">
+            Postman
           </li>
         </ul>
         <ul className=" font-light my-5 text-[#eff6e0] ">
-          <li className="h-20 my-2 py-5 text-center bg-gradient-to-tl from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase  border-2 border-t-white">
+          <li className="h-20 rounded-xl border-y-2 my-2 py-5 text-center bg-gradient-to-tl from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase border-[#eff6e0]">
             React
           </li>
-          <li className="h-20 my-2 py-5 text-center bg-gradient-to-tl from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase  border-2 border-t-white">
+          <li className="h-20 rounded-xl border-y-2 my-2 py-5 text-center bg-gradient-to-tl from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase border-[#eff6e0]">
             Redux
           </li>
-          <li className="h-20 my-2 py-5 text-center bg-gradient-to-tl from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase  border-2 border-t-white">
+          <li className="h-20 rounded-xl border-y-2 my-2 py-5 text-center bg-gradient-to-tl from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase border-[#eff6e0]">
             Css
           </li>
-          <li className="h-20 my-2 py-5 text-center bg-gradient-to-tl from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase  border-2 border-t-white">
+          <li className="h-20 rounded-xl border-y-2 my-2 py-5 text-center bg-gradient-to-tl from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase border-[#eff6e0]">
             Tailwindcss
           </li>
-          <li className="h-20 my-2 py-5 text-center bg-gradient-to-tl from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase  border-2 border-t-white">
+          <li className="h-20 rounded-xl border-y-2 my-2 py-5 text-center bg-gradient-to-tl from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase border-[#eff6e0]">
             TypeScript
           </li>
-          <li className="h-20 my-2 py-5 text-center bg-gradient-to-tl from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase  border-2 border-t-white">
+          <li className="h-20 rounded-xl border-y-2 my-2 py-5 text-center bg-gradient-to-tl from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase border-[#eff6e0]">
             Vtex.Io
           </li>
-          <li className="h-20 my-2 py-5 text-center bg-gradient-to-tl from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase  border-2 border-t-white">
+          <li className="h-20 rounded-xl border-y-2 my-2 py-5 text-center bg-gradient-to-tl from-[#3b757f] to-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase border-[#eff6e0]">
             Json
           </li>
         </ul>

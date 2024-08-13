@@ -9,71 +9,78 @@
 .active {
   color: #39c8f7;
 }
+
 .TextDouble {
-  color: #eff6e0;
-  font-size: 5rem;
-  margin-top: 1rem;
+  color        : #eff6e0;
+  font-size    : 5rem;
+  margin-top   : 1rem;
   margin-bottom: 2rem;
-  font-family: sans-serif;
-  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;  
+  font-family  : sans-serif;
+  text-shadow  : 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
 .hoverAfter:after {
-  content: "";
+  content : "";
   position: absolute;
-  height: 3px;
-  left: 25%;
-  width: 0%;
-  bottom: -10px;
+  height  : 3px;
+  left    : 25%;
+  width   : 0%;
+  bottom  : -10px;
 }
+
 .hoverAfter:hover:after {
   transition: 0.3s;
-  content: "";
-  position: absolute;
+  content   : "";
+  position  : absolute;
   background: #39c8f7;
-  height: 3px;
-  left: 25%;
-  width: 50%;
-  bottom: -10px;
+  height    : 3px;
+  left      : 25%;
+  width     : 50%;
+  bottom    : -10px;
 }
+
 .hoverAfterNav:after {
-  content: "";
+  content : "";
   position: absolute;
-  height: 2px;
-  left: 0%;
-  width: 0%;
-  bottom: -10px;
+  height  : 2px;
+  left    : 0%;
+  width   : 0%;
+  bottom  : -10px;
 }
+
 .hoverAfterNav:hover:after {
   transition: 0.5s;
-  content: "";
-  position: absolute;
+  content   : "";
+  position  : absolute;
   background: #39c8f7;
-  height: 2px;
-  left: 0%;
-  width: 100%;
-  bottom: -5px;
+  height    : 2px;
+  left      : 0%;
+  width     : 100%;
+  bottom    : -5px;
 }
 
 #root {
-  font-family: sans-serif;
+  font-family    : sans-serif;
   --animate-delay: 2s;
 }
 
 #imput {
   color: #01161E;
 }
+
 #imput:focus {
   color: #01161E;
 }
 
 .inputVacio {
-  border: 2px solid green;
+  border-bottom: 4px solid #39c8f7;
 }
+
 .inputLleno {
-  border: 2px solid red;
+  border: 2px solid transparent;
 }
-.inputfocus:focus  {
+
+.inputfocus:focus {
   border: 2px solid blue;
 }
 
