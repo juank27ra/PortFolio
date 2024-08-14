@@ -47,6 +47,7 @@ const Navbar = () => {
         <a
           href={pdfcv}
           target="_blank"
+          rel="noopener"
           className=" z-10 text-xl rounded-xl md:text-lg font-bold text-[#eff6e0] my-auto mx-4 p-4 md:p-2 shadow-md shadow-[#eff6e0] hover:text-[#39c8f7] selection:text-[#39c8f7] hover:shadow-md hover:shadow-[#39c8f7]"
         >
           Ver/Descargar cv{" "}

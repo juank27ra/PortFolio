@@ -8,6 +8,7 @@ export default function Footer() {
       </div>
       <a
         target="_blank"
+        rel="noopener"
         href="https://www.linkedin.com/in/juan-ramirez-p/"
         className="text-sm hover:text-[#eff6e0] p-4 ml-40 sm:ml-4 text-blue-600 md:ml-20 "
       >
@@ -15,6 +16,7 @@ export default function Footer() {
       </a>
       <a
         target="_blank"
+        rel="noopener"
         href="https://github.com/juank27ra"
         className="text-sm hover:text-[#eff6e0] ml-4 p-4 text-gray-600 sm:ml-2 "
       >
@@ -22,6 +24,7 @@ export default function Footer() {
       </a>
       <a
         target="_blank"
+        rel="noopener"
         href="https://wa.me/573224772180"
         className="text-sm hover:text-[#eff6e0] ml-4 p-4 text-green-600 sm:ml-2 "
       >

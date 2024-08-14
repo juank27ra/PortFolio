@@ -147,6 +147,7 @@ export default function Proyects() {
                     <a
                       className=" justify-center"
                       href={element.codigo}
+                      rel="noopener"
                       target="_blank"
                     >
                       <button className="duration-1000 snap-start transition-all mt-12 border-[#eff6e0] hover:border-[#39c8f7] rounded-xl text-[#39c8f7] hover:text-[#eff6e0] py-1 px-2 border-collapse border-y-2 text-base md:text-sm sm:text-xs sm:mt-4">
@@ -156,6 +157,7 @@ export default function Proyects() {
                     <a
                       className=" justify-center"
                       href={element.deploy}
+                      rel="noopener"
                       target="_blank"
                     >
                       <button className="duration-1000 snap-start transition-all  flex mt-12 py-1 px-2 border-[#eff6e0] hover:border-[#39c8f7] rounded-xl text-[#39c8f7] hover:text-[#eff6e0] border-collapse border-y-2 text-base md:text-sm sm:text-xs sm:mt-4">
