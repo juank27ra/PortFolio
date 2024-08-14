@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { IoCheckboxSharp } from "react-icons/io5";
+import { IoCheckmarkDoneSharp } from "react-icons/io5";
 
 export default function () {
   const [activeTab, setactiveTab] = useState(0);
@@ -8,7 +8,7 @@ export default function () {
   };
 
   return (
-    <div className="bg-gradient-to-tl from-[#3b757f] to-[#01161E] min-h-[105rem] h-[100vh] 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto">
+    <div className="pt-[8rem] bg-gradient-to-tl from-[#3b757f] to-[#01161E] min-h-[105rem] h-[100vh] 2xl:h-auto xl:h-auto lg:h-auto md:h-auto sm:h-auto">
       <div className="flex justify-between mx-5">
         <h1 className="TextDouble text-8xl sm:text-4xl font-extrabold underline p-4 text-[#eff6e0] mx-auto z-9">
           Sobre mí
@@ -16,7 +16,7 @@ export default function () {
       </div>
       <div className="flex justify-evenly pb-24">
         <section className=" md:mx-6 sm:mx-3 h-auto w-[80%]">
-          <ul className="tabs flex text-2xl justify-end whitespace-nowrap gap-4 cursor-pointer w-[100%] md:whitespace-normal  md:text-sm md:text-center md:hover:text-sm sm:text-sm sm:w-auto sm:whitespace-normal ">
+          <ul className="tabs flex text-2xl justify-center whitespace-nowrap gap-4 cursor-pointer w-[100%] md:whitespace-normal  md:text-sm md:text-center md:hover:text-sm sm:text-sm sm:w-auto sm:whitespace-normal ">
             <li
               className={
                 activeTab == 0
@@ -66,11 +66,11 @@ export default function () {
               </p>
             </li>
           </ul>
-          <div className="flex flex-row w-[100%] h-auto  mx-auto">
-            <div className="tab-content w-[60%] lg:w-[70%] md:w-[80%] sm:w-[90%] lg:h-auto md:h-auto sm:h-auto z-0 mx-auto">
+          <div className="flex flex-row w-[100%] h-auto mx-auto">
+            <div className=" w-[60%] lg:w-[70%] md:w-[80%] sm:w-[90%] lg:h-auto md:h-auto sm:h-auto z-0 mx-auto">
               {activeTab === 0 && (
                 <>
-                  <div className="flex flex-col min-h-[35rem] h-auto w-auto  bg-[#01161E] py-16 px-10 sm:px-6 lg:h-auto md:h-auto sm:h-auto text-lg md:text-base sm:text-sm text-[#eff6e0]">
+                  <div className="flex my-8 border-y-2 border-[#eff6e0] flex-col min-h-[35rem] h-auto w-auto rounded-xl  bg-[#01161E] py-16 px-10 sm:px-6 lg:h-auto md:h-auto sm:h-auto text-lg md:text-base sm:text-sm text-[#eff6e0]">
                     <p className="py-4 mb-10 text-2xl md:text-xl sm:text-lg text-center text-[#39c8f7]">
                       DATOS PERSONALES
                     </p>
@@ -84,7 +84,7 @@ export default function () {
                       {" "}
                       COLOMBIANO
                     </p>
-                    Mobil:
+                    Teléfono:
                     <p className="py-4 text-2xl md:text-xl sm:text-lg ">
                       {" "}
                       +573224772180
@@ -96,7 +96,7 @@ export default function () {
                     </p>
                   </div>
 
-                  <div className="flex flex-col min-h-[35rem] h-auto w-auto  bg-[#01161E] py-16 px-10 sm:px-6 lg:h-auto md:h-auto sm:h-auto text-lg md:text-base sm:text-sm text-[#eff6e0]">
+                  <div className="flex border-y-2 border-[#eff6e0] flex-col min-h-[35rem] h-auto w-auto rounded-xl  bg-[#01161E] py-16 px-10 sm:px-6 lg:h-auto md:h-auto sm:h-auto text-lg md:text-base sm:text-sm text-[#eff6e0]">
                     <p className="pb-4 mb-10 text-2xl md:text-xl sm:text-lg text-center text-[#39c8f7]">
                       {" "}
                       HABILIDADES BLANDAS
@@ -105,33 +105,40 @@ export default function () {
                     <ul className="py-4 text-2xl md:text-xl sm:text-lg flex-col gap-10">
                       {" "}
                       <li className="flex gap-8">
-                        <IoCheckboxSharp /> Trabajo en equipo y en colaboración.
+                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
+                        Trabajo individual y en equipo (Colaborativo).
                       </li>
                       <li className="flex gap-8">
-                        <IoCheckboxSharp /> Manejo de metodologías Ágiles
-                        (scrum).
+                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
+                        Manejo de metodologías Ágiles (scrum).
                       </li>
                       <li className="flex gap-8">
-                        <IoCheckboxSharp /> Gestión del tiempo.
+                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
+                        Gestión del tiempo.
                       </li>
                       <li className="flex gap-8">
-                        <IoCheckboxSharp /> Adaptibilidad y Flexibilidad.
+                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
+                        Adaptabilidad y Flexibilidad.
                       </li>
                       <li className="flex gap-8">
-                        <IoCheckboxSharp /> Escucha activa.
+                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
+                        Escucha activa.
                       </li>
                       <li className="flex gap-8">
-                        <IoCheckboxSharp /> Resolución de problemas.
+                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
+                        Resolución de problemas.
                       </li>
                       <li className="flex gap-8">
-                        <IoCheckboxSharp /> Capacidad de Aprendizaje y
-                        Desarrollo Continuo.
+                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
+                        Capacidad de Aprendizaje y Desarrollo Continuo.
                       </li>
                       <li className="flex gap-8">
-                        <IoCheckboxSharp /> Responsabilidad.
+                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
+                        Responsabilidad.
                       </li>
                       <li className="flex gap-8">
-                        <IoCheckboxSharp /> Ética Laboral.
+                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
+                        Ética Laboral.
                       </li>
                     </ul>
                   </div>
@@ -140,27 +147,27 @@ export default function () {
               {activeTab === 1 && (
                 <div className="h-[35rem] text-2xl text-[#eff6e0]">
                   <ul className=" font-light my-5 text-[#eff6e0] ">
-                    <li className="h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase">
+                    <li className="h-24 sm:h-auto my-2 py-5 text-center rounded-xl bg-[#01161E] text-xl font-semibold uppercase">
                       <p className="relative hoverAfter">
                         Construccion de páginas web fullstack
                       </p>
                     </li>
-                    <li className="h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase">
+                    <li className="h-24 sm:h-auto my-2 py-5 text-center rounded-xl bg-[#01161E] text-xl font-semibold uppercase">
                       <p className="relative hoverAfter">
                         Desarrollo Front-end
                       </p>
                     </li>
-                    <li className="h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase">
+                    <li className="h-24 sm:h-auto my-2 py-5 text-center rounded-xl bg-[#01161E] text-xl font-semibold uppercase">
                       <p className="relative hoverAfter">
                         Construccion de landing page
                       </p>
                     </li>
-                    <li className="h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase">
+                    <li className="h-24 sm:h-auto my-2 py-5 text-center rounded-xl bg-[#01161E] text-xl font-semibold uppercase">
                       <p className="relative hoverAfter">
                         Integración de API's y servicios externos
                       </p>
                     </li>
-                    <li className="h-24 sm:h-auto my-2 py-5 text-center bg-[#01161E] text-xl font-semibold uppercase">
+                    <li className="h-24 sm:h-auto my-2 py-5 text-center rounded-xl bg-[#01161E] text-xl font-semibold uppercase">
                       <p className="relative hoverAfter">Diseño Responsivo</p>
                     </li>
                   </ul>
@@ -439,7 +446,7 @@ export default function () {
               {activeTab === 3 && (
                 <div className="h-[40rem]  max-h-[50rem] text-2xl text-[#eff6e0] my-10">
                   <ul className=" font-light my-5 text-[#eff6e0] ">
-                    <li className="h-auto my-2 py-5 px-10 text-center bg-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase ">
+                    <li className="h-auto my-2 py-5 px-10 text-center rounded-xl bg-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase ">
                       Awaq ONGD
                       <p className="normal-case py-5 text-base text-justify font-light">
                         Awaq, es una organización no gubernamental de desarrollo
@@ -451,17 +458,17 @@ export default function () {
                         contribuido y asistido a reuniones virtuales y he podido
                         participar en todo el ciclo de vida de proyectos
                         importantes hasta ser públicos; finalmente adicionar que
-                        manejamos metodología Agiles, utilizamos React,
-                        tailwindcss, typescript, trello y otras tecnologias
+                        manejamos metodología Agile, utilizamos React,
+                        tailwindcss, typescript, trello y otras tecnologías
                         secundarias.
                       </p>
                       <a target="_blanck" href={"https://somosawaq.org/"}>
-                        <button className="flex justify-start p-2 border-2 border-[#39c8f7] text-[#39c8f7] hover:scale-95 hover:border-white hover:text-white">
-                          Ver Empresa
+                        <button className="transition-all duration-1000 snap-start flex justify-start p-2 rounded-xl border-y-2 border-[#eff6e0] text-[#39c8f7] hover:scale-95 hover:border-[#39c8f7] hover:text-[#eff6e0]">
+                          Ver ONGD
                         </button>
                       </a>
                     </li>
-                    <li className="h-auto my-2 py-5 px-10  text-center bg-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase ">
+                    <li className="h-auto my-2 py-5 px-10  text-center rounded-xl bg-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase ">
                       Itglobers
                       <p className="normal-case py-5  text-base text-justify font-light">
                         Con una experiencia inmersiva totalmente en el mundo del
@@ -474,7 +481,7 @@ export default function () {
                         BEM y Css
                       </p>
                       <a target="_blanck" href={"https://www.itglobers.com/"}>
-                        <button className="flex justify-start p-2 border-2 border-[#39c8f7] text-[#39c8f7] hover:scale-95 hover:border-white hover:text-white">
+                        <button className="transition-all duration-1000 snap-start flex justify-start p-2 rounded-xl border-y-2 border-[#eff6e0] text-[#39c8f7] hover:scale-95 hover:border-[#39c8f7] hover:text-[#eff6e0]">
                           Ver Empresa
                         </button>
                       </a>
