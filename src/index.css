@@ -84,13 +84,20 @@
   border: 2px solid blue;
 }
 
-/* .frente {
-  display: none;
-  display: ;
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
-@media screen (max-width < 640px) {
-   .frente {
-     dis
-   }
-} */
+.animate-marquee {
+  animation: marquee 15s linear infinite;
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}

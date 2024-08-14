@@ -1,6 +1,7 @@
 import React from "react";
 import imagPerfil from "../assets/Juan.jpg";
 import { Link } from "react-router-dom";
+import Servises from "./Servises";
 
 const Profile = () => {
   return (
@@ -18,9 +19,12 @@ const Profile = () => {
           </h1>
           <h3 className=" text-3xl font-semibold ml-20 sm:ml-0 text-[#39c8f7] sm:text-xl ">
             {" "}
-            Developer Full Stack{" "}
+            Developer Full Stack
           </h3>
-          <p className="text-xl mt-4 text-[#eff6e0]  w-auto sm:text-base text-justify mr-8 sm:w-5/6 sm:mx-auto 2xl:w-[80%]">
+          {/* <div className="text-xl font-semibold text-[#39c8f7] sm:text-lg uppercase">
+            <Servises />
+          </div> */}
+          <p className="text-xl mt-4 text-[#eff6e0] w-auto sm:text-base text-justify mr-8 sm:w-5/6 sm:mx-auto 2xl:w-[80%]">
             Entusiasta de la tecnología y con disciplina en el aprendizaje me
             defino. Ver cómo se transforma el código visualmente y sentir la
             grandeza de lo que hago, me pone en una perspectiva de aprendizaje
