@@ -13,15 +13,17 @@ import {
   SpeedDialContent,
   SpeedDialAction,
 } from "@material-tailwind/react";
+import favicon from "../assets/favicon.png";
 
 const Navbar = () => {
   return (
     <div>
       <nav className=" z-50 fixed w-[97%] h-24 bg-[#01161E] border-2 rounded-xl border-[#eff6e0] top-6 left-[2%] right-[2%] flex justify-between px-10 md:px-0 md:w-[97%] sm:hidden">
         <Link to={"/"} className=" p-3 m-2">
-          {
+          {/* {
             <FaHouse className="h-12 w-12 fill-[#eff6e0] my-auto hover:scale-125 hover:fill-[#39c8f7]" />
-          }
+          } */}
+          <img alt="favicon-ico" className="  h-14 w-14 " src={favicon} />
         </Link>
         <Link
           to="/about"
