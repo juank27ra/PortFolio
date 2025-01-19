@@ -114,13 +114,12 @@ export default function Proyects() {
       >
         {projectsJson.map((element, index) => {
           return (
-            <SwiperSlide>
+            <SwiperSlide key={index + "111a"}>
               <div className=" flex flex-row h-auto w-full object-fill p-8 items-center sm:px-2 -z-10">
                 <div className="flex flex-col h-auto w-1/2 overflow-hidden">
                   <img
                     className=" w-auto rounded-2xl h-[25rem] md:h-[22rem] sm:h-[14rem] max-w-xs py-6 flex justify-center mx-auto object-fill px-10 md:px-5 sm:px-2"
                     src={element.img}
-                    key={index + 1}
                     alt={element.alt}
                   />
                 </div>

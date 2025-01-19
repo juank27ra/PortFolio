@@ -1,4 +1,4 @@
-import { Route, Routes, HashRouter } from "react-router-dom";
+import { Route, Routes, HashRouter, BrowserRouter } from "react-router-dom";
 import Navbar from "./componentes/Navbar";
 import Home from "./componentes/Home";
 import Sobremi from "./componentes/Sobremi/Sobremi";
@@ -12,10 +12,11 @@ import juan from "./assets/Juan.jpg";
 export default function App() {
   const helmetContext = {};
   return (
-    <HelmetProvider context={helmetContext}>
-      {" "}
-      {/* el context ayuda a garantizar que el contexto nunca se encuentre fuera de la instancia actual de su aplicación */}
-      <HashRouter>
+    <BrowserRouter>
+      <HelmetProvider context={helmetContext}>
+        {" "}
+        {/* el context ayuda a garantizar que el contexto nunca se encuentre fuera de la instancia actual de su aplicación */}
+        {/* <HashRouter> */}
         <Navbar />
         <Routes>
           <Route
@@ -80,7 +81,8 @@ export default function App() {
           <Route path="*" element={<Error404 />} />
         </Routes>
         <Footer />
-      </HashRouter>
-    </HelmetProvider>
+        {/* </HashRouter> */}
+      </HelmetProvider>
+    </BrowserRouter>
   );
 }
