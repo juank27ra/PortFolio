@@ -38,6 +38,11 @@ const Profile = () => {
               Contáctame
             </Link>
           </p>
+          {/* <br />
+          <p className="text-xl mt-4 text-[#eff6e0]  w-auto sm:text-base text-justify mr-8 sm:w-5/6 sm:mx-auto 2xl:w-[80%]">
+            Diseño y construyo productos digitales que entregan experiencias
+            únicas para tus usuarios y/o clientes que visitan tu web.
+          </p> */}
           <p className="text-2xl font-semibold mt-10 text-[#eff6e0]  sm:text-lg sm:items-center">
             Bienvenidos.{" "}
           </p>

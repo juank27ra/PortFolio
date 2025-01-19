@@ -40,30 +40,32 @@ const Skill = () => {
         HABILIDADES TÉCNICAS
       </div>
       <Swiper
-        className=" w-auto mx-auto justify-center h-auto sm:w-[80%] md:w-5/6 mb-8 lg:w-5/6 xl:w-[80%] 2xl:w-[80%]"
+        className={` w-auto mx-auto justify-center h-auto sm:w-[80%] md:w-5/6 mb-8 lg:w-5/6 xl:w-[80%] 2xl:w-[80%]`}
         modules={[A11y, Autoplay]}
-        spaceBetween={1}
+        spaceBetween={10}
         slidesPerView={4}
         loop={true}
         centeredSlides={true}
         autoplay={{
-          delay: 400,
+          delay: 200,
+          disableOnInteraction: false,
         }}
+        speed={1500}
       >
         {imgs.map((e, i) => {
+          const offset = i % 2 === 0 ? "translate-y-4" : "-translate-y-4"; // Alterna entre elevar y bajar las imágenes
           return (
-            <>
-              <SwiperSlide>
-                <section className="h-auto w-auto flex flex-row mx-auto">
-                  <img
-                    alt=""
-                    src={e}
-                    key={i}
-                    className="object-fill rounded-xl border-y-2 border-[#eff6e0] p-2 h-20 w-20 lg:w-16 lg:h-16 md:h-16 md:w-16 sm:h-10 sm:w-10 sm:p-0.5"
-                  />
-                </section>
-              </SwiperSlide>
-            </>
+            <SwiperSlide key={i + "333b"}>
+              <section
+                className={`h-auto w-auto flex flex-row mx-auto `} // ${offset}
+              >
+                <img
+                  alt=""
+                  src={e}
+                  className=" object-fill rounded-xl border-y-2 border-[#eff6e0] p-2 h-20 w-20 lg:w-16 lg:h-16 md:h-16 md:w-16 sm:h-10 sm:w-10 sm:p-0.5"
+                />
+              </section>
+            </SwiperSlide>
           );
         })}
       </Swiper>
