@@ -1,4 +1,4 @@
-import pdfcv from "../assets/CV JCRP.pdf";
+import pdfcv from "../assets/JCRP.pdf";
 import { FaHouse } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { SiAboutdotme } from "react-icons/si";

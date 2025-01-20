@@ -76,69 +76,48 @@ export default function () {
                     </p>
                     Nombre:
                     <p className="py-4 text-2xl md:text-xl sm:text-lg ">
-                      {" "}
                       JUAN CARLOS RAMIREZ PINILLA
                     </p>
                     Nacionalidad:
                     <p className="py-4 text-2xl md:text-xl sm:text-lg ">
-                      {" "}
                       COLOMBIANO
-                    </p>
-                    Teléfono:
-                    <p className="py-4 text-2xl md:text-xl sm:text-lg ">
-                      {" "}
-                      +573224772180
                     </p>
                     Email:
                     <p className="py-4 text-2xl md:text-xl sm:text-lg ">
-                      {" "}
                       juank27ra@gmail.com
                     </p>
                   </div>
 
                   <div className="flex border-y-2 border-[#eff6e0] flex-col min-h-[35rem] h-auto w-auto rounded-xl  bg-[#01161E] py-16 px-10 sm:px-6 lg:h-auto md:h-auto sm:h-auto text-lg md:text-base sm:text-sm text-[#eff6e0]">
                     <p className="pb-4 mb-10 text-2xl md:text-xl sm:text-lg text-center text-[#39c8f7]">
-                      {" "}
-                      HABILIDADES BLANDAS
+                      COMPETENCIAS COMO DESARROLLADOR
                     </p>
 
                     <ul className="py-4 text-2xl md:text-xl sm:text-lg flex-col gap-10">
-                      {" "}
                       <li className="flex gap-8">
-                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
+                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />
                         Trabajo individual y en equipo (Colaborativo).
                       </li>
                       <li className="flex gap-8">
-                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
+                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />
                         Manejo de metodologías Ágiles (scrum).
                       </li>
                       <li className="flex gap-8">
-                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
-                        Gestión del tiempo.
+                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />
+                        Colaboración con diseñadores para traducir prototipos
+                        (de Figma) en interfaces funcionales.
                       </li>
                       <li className="flex gap-8">
-                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
-                        Adaptabilidad y Flexibilidad.
+                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />
+                        Desarrollo de interfaces interactivas.
                       </li>
                       <li className="flex gap-8">
-                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
-                        Escucha activa.
+                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />
+                        Participar en el diseño técnico.
                       </li>
                       <li className="flex gap-8">
-                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
-                        Resolución de problemas.
-                      </li>
-                      <li className="flex gap-8">
-                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
-                        Capacidad de Aprendizaje y Desarrollo Continuo.
-                      </li>
-                      <li className="flex gap-8">
-                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
-                        Responsabilidad.
-                      </li>
-                      <li className="flex gap-8">
-                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />{" "}
-                        Ética Laboral.
+                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />
+                        Automatización y mantenimiento.
                       </li>
                     </ul>
                   </div>
@@ -149,7 +128,7 @@ export default function () {
                   <ul className=" font-light my-5 text-[#eff6e0] ">
                     <li className="h-24 sm:h-auto my-2 py-5 text-center rounded-xl bg-[#01161E] text-xl font-semibold uppercase">
                       <p className="relative hoverAfter">
-                        Construccion de páginas web fullstack
+                        Construcción de páginas web fullstack
                       </p>
                     </li>
                     <li className="h-24 sm:h-auto my-2 py-5 text-center rounded-xl bg-[#01161E] text-xl font-semibold uppercase">
@@ -450,17 +429,18 @@ export default function () {
                       Awaq ONGD
                       <p className="normal-case py-5 text-base text-justify font-light">
                         Awaq, es una organización no gubernamental de desarrollo
-                        en la cual, colaboro actualmente como desarrollador
-                        Frontend. Aquí he participado en dos proyectos y he
-                        tenido la oportunidad de crecer en la práctica del
-                        código y en la lógica; como Scrum Master lidero dos
-                        equipos de desarrollo para implementación de mejoras; he
+                        en la cual, colaboro desde 2023 hasta actualmente como
+                        desarrollador Frontend. Aquí he participado en proyectos
+                        y he tenido la oportunidad de crecer en la práctica del
+                        código y en la lógica; como Scrum Master lideré equipos
+                        de desarrollo para implementación de mejoras; he
                         contribuido y asistido a reuniones virtuales y he podido
                         participar en todo el ciclo de vida de proyectos
-                        importantes hasta ser públicos; finalmente adicionar que
-                        manejamos metodología Agile, utilizamos React,
-                        tailwindcss, typescript, trello y otras tecnologías
-                        secundarias.
+                        importantes hasta ser públicos; Algunas de las
+                        tecnilogías que, utilizamos son: React, tailwindcss,
+                        typescript, trello y otras tecnologías secundarias junto
+                        con metodologías Agile para tener entregables óptimos y
+                        en las fechas establecidas.
                       </p>
                       <a target="_blanck" href={"https://somosawaq.org/"}>
                         <button className="transition-all duration-1000 snap-start flex justify-start p-2 rounded-xl border-y-2 border-[#eff6e0] text-[#39c8f7] hover:scale-95 hover:border-[#39c8f7] hover:text-[#eff6e0]">
@@ -468,7 +448,43 @@ export default function () {
                         </button>
                       </a>
                     </li>
-                    <li className="h-auto my-2 py-5 px-10  text-center rounded-xl bg-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase ">
+                    <li className="h-auto my-2 py-5 px-10 text-center rounded-xl bg-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase ">
+                      Ver certificados Obtenidos
+                      <div className="flex justify-evenly mx-auto text-center gap-10 pt-16">
+                        <a href="" target="_blanck">
+                          <button className="h-auto hover:font-bold text-center md:text-base sm:text-sm hover:whitespace-normal text-[#39c8f7]">
+                            Certificado de Colaboración
+                          </button>
+                        </a>
+                        <a
+                          href="https://www.linkedin.com/in/juan-ramirez-p/details/certifications/1707151441864/single-media-viewer/?profileId=ACoAABA4igUBdT2W7uOAof_yrdUktyRAPwLpugY"
+                          target="_blanck"
+                        >
+                          <button className="h-auto hover:font-bold text-center md:text-base sm:text-sm hover:whitespace-normal text-[#39c8f7]">
+                            Certificado de Excelencia
+                          </button>
+                        </a>
+                      </div>
+                      <div className="flex gap-10 mx-auto mt-6 text-center justify-evenly">
+                        <a
+                          href="https://www.linkedin.com/in/juan-ramirez-p/details/certifications/1714409897221/single-media-viewer/?profileId=ACoAABA4igUBdT2W7uOAof_yrdUktyRAPwLpugY"
+                          target="_blanck"
+                        >
+                          <button className="h-auto hover:font-bold text-center md:text-base sm:text-sm hover:whitespace-normal text-[#39c8f7]">
+                            Scrum Master
+                          </button>
+                        </a>
+                        <a
+                          href="https://www.linkedin.com/in/juan-ramirez-p/details/recommendations/"
+                          target="_blanck"
+                        >
+                          <button className="h-auto hover:font-bold text-center md:text-base sm:text-sm hover:whitespace-normal text-[#39c8f7]">
+                            Recomendación
+                          </button>
+                        </a>
+                      </div>
+                    </li>
+                    {/* <li className="h-auto my-2 py-5 px-10  text-center rounded-xl bg-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase ">
                       Itglobers
                       <p className="normal-case py-5  text-base text-justify font-light">
                         Con una experiencia inmersiva totalmente en el mundo del
@@ -485,7 +501,7 @@ export default function () {
                           Ver Empresa
                         </button>
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               )}

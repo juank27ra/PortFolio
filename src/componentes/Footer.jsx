@@ -14,8 +14,6 @@ export default function Footer() {
     return year;
   })();
 
-  console.log(date);
-
   return (
     <footer className="bg-[#01161E] z-50 border-t-2 rounded-xl fixed bottom-0  border-[#eff6e0] h-14 flex justify-center w-[100%] sm:h-20 sm:items-center">
       <div className="sm:w-1/3">
