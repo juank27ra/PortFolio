@@ -34,7 +34,10 @@ const Profile = () => {
           <p className="text-xl mt-4 text-[#eff6e0]  w-auto sm:text-base text-justify mr-8 sm:w-5/6 sm:mx-auto 2xl:w-[80%]">
             Quieres tener presencia en la red, escalar tu negocio, dar confianza
             a tus clientes y/o que te conozcan desde cualquier lugar...{"   "}
-            <Link to={"/contact"} className="underline">
+            <Link
+              to={"/contact"}
+              className="text-[#39c8f7] hover:scale-95 hover:border-[#39c8f7] p-1 hover:text-[#eff6e0] transition-all duration-1000 snap-start"
+            >
               Contáctame
             </Link>
           </p>
