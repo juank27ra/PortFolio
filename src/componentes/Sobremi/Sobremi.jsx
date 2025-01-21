@@ -1,5 +1,9 @@
 import { useState } from "react";
 import { IoCheckmarkDoneSharp } from "react-icons/io5";
+import { ImHeadphones } from "react-icons/im";
+import { GiCampCookingPot, GiNotebook, GiWhiteBook } from "react-icons/gi";
+import { FaCarSide } from "react-icons/fa6";
+import { IoMdBasketball } from "react-icons/io";
 
 export default function () {
   const [activeTab, setactiveTab] = useState(0);
@@ -100,10 +104,10 @@ export default function () {
                       </li>
                       <li className="flex gap-8">
                         <IoCheckmarkDoneSharp className="text-[#39c8f7]" />
-                        Manejo de metodologías Ágiles (scrum).
+                        Manejo de metodologías Ágiles (Scrum).
                       </li>
                       <li className="flex gap-8">
-                        <IoCheckmarkDoneSharp className="text-[#39c8f7]" />
+                        <IoCheckmarkDoneSharp className="text-[#39c8f7] h-14 w-14 2xl:h-10 2xl:w-10 2xl:max-h-10 2xl:max-w-10" />
                         Colaboración con diseñadores para traducir prototipos
                         (de Figma) en interfaces funcionales.
                       </li>
@@ -113,11 +117,45 @@ export default function () {
                       </li>
                       <li className="flex gap-8">
                         <IoCheckmarkDoneSharp className="text-[#39c8f7]" />
-                        Participar en el diseño técnico.
+                        Participación en el diseño técnico.
                       </li>
                       <li className="flex gap-8">
                         <IoCheckmarkDoneSharp className="text-[#39c8f7]" />
                         Automatización y mantenimiento.
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="flex border-y-2 my-8 border-[#eff6e0] flex-col min-h-[20rem] h-auto w-auto rounded-xl  bg-[#01161E] py-16 px-10 sm:px-6 lg:h-auto md:h-auto sm:h-auto text-lg md:text-base sm:text-sm text-[#eff6e0]">
+                    <p className="pb-8 mb-10 text-2xl md:text-xl sm:text-lg text-center uppercase text-[#39c8f7]">
+                      Hobbies
+                    </p>
+                    <ul className="h-auto flex-wrap sm:justify-center md:justify-center items-center text-center flex flex-row gap-10 justify-evenly">
+                      <li className=" ">
+                        <GiWhiteBook className="h-14 w-14 mx-auto" />
+                        Leer
+                      </li>
+                      <li className="">
+                        <GiNotebook className="h-14 w-14 mx-auto" />
+                        Aprender
+                      </li>
+                      <li className="">
+                        <FaCarSide className="h-14 w-14 mx-auto" />
+                        Conducir
+                      </li>
+
+                      <li className="">
+                        <ImHeadphones className="h-12 w-12 mb-2 mx-auto" />
+                        Escuchar musica
+                        <br />
+                        (Pop en Ingles)
+                      </li>
+                      <li className="">
+                        <GiCampCookingPot className="h-14 w-14 mx-auto" />
+                        Cocinar
+                      </li>
+                      <li className="">
+                        <IoMdBasketball className="h-14 w-14 mx-auto" />
+                        Basketball
                       </li>
                     </ul>
                   </div>

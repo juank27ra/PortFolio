@@ -40,18 +40,18 @@ export default function Proyects() {
       tecnologías:
         "Node, Express, Postgresql, Typescript, React, Redux, Bootstrap,",
     },
-    {
-      img: nappa,
-      alt: "",
-      title: "Ecommerce Nappa",
-      description:
-        "Este proyecto fue realizado para itglobers, un ecommerce resposnsivo con su respectiva lista de productos, carrito de compras, pasarela de pagos, favoritos y otros componentes propios de un ecommerce.",
-      metodology: "Metodología scrum",
-      wayOfWorking: "Proyecto front-end",
-      codigo: "https://github.com/juank27ra/store-theme-nappa",
-      deploy: "",
-      tecnologías: "Vtex.Io, React, Json, Css, Html, Md",
-    },
+    // {
+    //   img: nappa,
+    //   alt: "",
+    //   title: "Ecommerce Nappa",
+    //   description:
+    //     "Este proyecto fue realizado para itglobers, un ecommerce resposnsivo con su respectiva lista de productos, carrito de compras, pasarela de pagos, favoritos y otros componentes propios de un ecommerce.",
+    //   metodology: "Metodología scrum",
+    //   wayOfWorking: "Proyecto front-end",
+    //   codigo: "https://github.com/juank27ra/store-theme-nappa",
+    //   deploy: "",
+    //   tecnologías: "Vtex.Io, React, Json, Css, Html, Md",
+    // },
     {
       img: tareas,
       alt: "Image of todoList",
