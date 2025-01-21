@@ -6,19 +6,18 @@ import Servises from "./Servises";
 const Profile = () => {
   return (
     <>
-      <div className="flex gap-20 justify-center items-center mx-10 w-auto sm:mx-5 sm:gap-4 h-auto sm:flex sm:flex-col">
+      <div className="flex gap-20 justify-center items-center mx-10 w-auto sm:mx-5 sm:gap-4 h-auto sm:flex sm:flex-col ">
         <img
-          className=" h-[26rem] xl:h-[18rem] md:h-[12rem] sm:h-[12rem] 2xl:h-[28rem] rounded-full w-auto bg-transparent "
+          className="sm:mt-24 h-[26rem] xl:h-[18rem] md:h-[12rem] sm:h-[12rem] 2xl:h-[28rem] rounded-full w-auto bg-transparent "
           src={imagPerfil}
           alt="Imagen de perfil"
         />
         <div className="mt-40 w-auto sm:w-auto sm:mt-10 sm:text-center">
           <p className=" text-xl text-[#eff6e0] sm:text-base">Hola!👋, Soy </p>
           <h1 className=" text-6xl lg:text-4xl md:text-3xl font-bold text-[#eff6e0]  sm:text-2xl py-6">
-            Juan Ramírez{" "}
+            Juan Ramírez
           </h1>
           <h3 className=" text-3xl font-semibold ml-20 sm:ml-0 text-[#39c8f7] sm:text-xl ">
-            {" "}
             Developer Full Stack
           </h3>
           {/* <div className="text-xl font-semibold text-[#39c8f7] sm:text-lg uppercase">
