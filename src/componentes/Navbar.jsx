@@ -24,7 +24,11 @@ const Navbar = () => {
       </div> */}
       <nav className=" z-50 fixed w-[97%] h-24 bg-[#01161E] border-2 rounded-xl border-[#eff6e0] top-6 left-[2%] right-[2%] flex justify-between px-10 md:px-0 md:w-[97%] sm:hidden">
         <Link to={"/"} className=" p-3 m-2">
-          <img alt="favicon-ico" className="h-14 w-14" src={favicon} />
+          <img
+            alt="favicon-ico"
+            className="h-14 w-14 hover:scale-110"
+            src={favicon}
+          />
         </Link>
         <Link
           to="/about"
