@@ -59,7 +59,7 @@ export default function Contact() {
           >
             <img
               title="LinkedIn"
-              className="h-12 w-12 sm:h-9 sm:w-9 drop-shadow-2xl hover:shadow-blue-400 hover:h-20 hover:w-20 sm:hover:h-16 sm:hover:w-16"
+              className="h-12 w-12 transition-all duration-300 sm:h-9 sm:w-9 drop-shadow-2xl hover:shadow-blue-400 hover:h-20 hover:w-20 sm:hover:h-16 sm:hover:w-16"
               src={linkedIn}
               alt="icono de linkedIn"
             />
@@ -67,7 +67,7 @@ export default function Contact() {
           <a href="https://github.com/juank27ra" target="_blank" rel="noopener">
             <img
               title="Github"
-              className="h-12 w-12 sm:h-9 sm:w-9  drop-shadow-lg hover:shadow-gray-300 hover:h-20 hover:w-20 sm:hover:h-16 sm:hover:w-16"
+              className="h-12 w-12 transition-all duration-300  sm:h-9 sm:w-9 drop-shadow-lg hover:shadow-gray-300 hover:h-20 hover:w-20 sm:hover:h-16 sm:hover:w-16"
               src={Github}
               alt="icono de github"
             />
@@ -75,7 +75,7 @@ export default function Contact() {
           <a href="mailto: juank27ra@gmail.com" target="_blank" rel="noopener">
             <img
               title="Gmail"
-              className="h-12 w-12 sm:h-9 sm:w-9 drop-shadow-lg hover:shadow-red-600 hover:h-20 hover:w-20 sm:hover:h-16 sm:hover:w-16"
+              className="h-12 w-12 transition-all duration-300  sm:h-9 sm:w-9 drop-shadow-lg hover:shadow-red-600 hover:h-20 hover:w-20 sm:hover:h-16 sm:hover:w-16"
               src={mail}
               alt="icono de mail"
             />
@@ -83,7 +83,7 @@ export default function Contact() {
           <a href="https://wa.me/573224772180" target="_blank" rel="noopener">
             <img
               title="Whatsapp"
-              className="h-12 w-12 sm:h-9 sm:w-9 drop-shadow-lg hover:shadow-green-600 hover:h-20 hover:w-20 sm:hover:h-16 sm:hover:w-16"
+              className="h-12 w-12 transition-all duration-300  sm:h-9 sm:w-9 drop-shadow-lg hover:shadow-green-600 hover:h-20 hover:w-20 sm:hover:h-16 sm:hover:w-16"
               src={whatsapp}
               alt="icono de whatsap"
             />
@@ -120,7 +120,7 @@ export default function Contact() {
                       input.user_name ? "inputVacio" : "inputLleno"
                     }  inputfocus`} //aqui hay tres estados del input
                     required
-                    placeholder="  Pepito Perez"
+                    placeholder=" Perez"
                   />
                   <input
                     id="imput"
@@ -134,7 +134,7 @@ export default function Contact() {
                         : "h-10 bg-[#eff6e0] w-1/2 rounded-lg px-1 my-4 uppercase inputLleno"
                     }
                     required
-                    placeholder="  pepitopz2024@correo.com"
+                    placeholder="  perez2025@correo.com"
                   />
                 </div>
 

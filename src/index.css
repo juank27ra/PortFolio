@@ -22,7 +22,7 @@
 .hoverAfter:after {
   content : "";
   position: absolute;
-  height  : 3px;
+  height  : 1px;
   left    : 25%;
   width   : 0%;
   bottom  : -10px;
@@ -32,8 +32,8 @@
   transition: 0.3s;
   content   : "";
   position  : absolute;
-  background: #39c8f7;
-  height    : 3px;
+  background: #eff6e0;
+  height    : 1px;
   left      : 25%;
   width     : 50%;
   bottom    : -10px;

@@ -185,6 +185,11 @@ export default function () {
                       </p>
                     </li>
                     <li className="h-24 sm:h-auto my-2 py-5 text-center rounded-xl bg-[#01161E] text-xl font-semibold uppercase">
+                      <p className="relative hoverAfter">
+                        Soporte y mantenimiento
+                      </p>
+                    </li>
+                    <li className="h-24 sm:h-auto my-2 py-5 text-center rounded-xl bg-[#01161E] text-xl font-semibold uppercase">
                       <p className="relative hoverAfter">Diseño Responsivo</p>
                     </li>
                   </ul>

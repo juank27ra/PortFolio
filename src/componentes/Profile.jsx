@@ -24,15 +24,22 @@ const Profile = () => {
             <Servises />
           </div> */}
           <p className="text-xl mt-4 text-[#eff6e0] w-auto sm:text-base text-justify mr-8 sm:w-5/6 sm:mx-auto 2xl:w-[80%]">
-            Entusiasta de la tecnología y con disciplina en el aprendizaje me
-            defino. Ver cómo se transforma el código visualmente y sentir la
-            grandeza de lo que hago, me pone en una perspectiva de aprendizaje
-            continuo para SER el mejor.{" "}
+            Con casi 2 años de trayectoria como desarrollador, disfruto crear
+            experiencias e interacciones fluidas y amigables para el usuario. Mi
+            enfoque está en ofrecer soluciones prácticas y convertir desafíos en
+            logros concretos. Mi experiencia previa como Scrum Master y
+            developer front-end me ha dado una comprensión única del trabajo en
+            equipo, permitiéndome contribuir de manera eficaz y positiva en
+            cualquier entorno.
+            {/* Entusiasta de la tecnología y con disciplina en
+            el aprendizaje me defino. Ver cómo se transforma el código
+            visualmente y sentir la grandeza de lo que hago, me pone en una
+            perspectiva de aprendizaje continuo para SER el mejor. */}
           </p>
           <br />
           <p className="text-xl mt-4 text-[#eff6e0]  w-auto sm:text-base text-justify mr-8 sm:w-5/6 sm:mx-auto 2xl:w-[80%]">
             Quieres tener presencia en la red, escalar tu negocio, dar confianza
-            a tus clientes y/o que te conozcan desde cualquier lugar...{"   "}
+            a tus clientes y/o que te conozcan desde cualquier lugar...
             <Link
               to={"/contact"}
               className="text-[#39c8f7] hover:scale-95 hover:border-[#39c8f7] p-1 hover:text-[#eff6e0] transition-all duration-1000 snap-start"
@@ -46,7 +53,7 @@ const Profile = () => {
             únicas para tus usuarios y/o clientes que visitan tu web.
           </p> */}
           <p className="text-2xl font-semibold mt-10 text-[#eff6e0]  sm:text-lg sm:items-center">
-            Bienvenidos.{" "}
+            Bienvenidos.
           </p>
           <div className="flex items-start sm:flex sm:justify-center mb-24">
             <Link to="about">
