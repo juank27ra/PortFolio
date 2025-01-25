@@ -19,7 +19,7 @@ export default function Proyects() {
       alt: "",
       title: "AWAQ ONGD",
       description:
-        "Este proyecto responsivo fue realizado para AWAQ ONGD, en calidad de colaborador como Desarrollador frontend. Mi participación estuvo enfocada en la página principal de inicio y el Footer",
+        "Estos proyectos responsivos fueron realizados para AWAQ ONGD, en calidad de colaborador como Desarrollador frontend y scrum Master. Mi participación estuvo enfocada en el desarrollo de la página principal o de inicio, el Footer, la implelmentacion de la API de google Maps entre otros. Como Scrum realizamos mejoras y nuevas implementaciones",
       metodology: "Metodología scrum",
       wayOfWorking: "Proyecto grupal front-end",
       codigo:
@@ -32,7 +32,7 @@ export default function Proyects() {
       alt: "Image of comics",
       title: "Ecomics",
       description:
-        "Ecomerce de comics incluye autenticación pasarela de pago, creación y guardado en base de datos etc...",
+        "Un Ecomerce de comics totalmente funcional con todos sus componente, incluye: autenticación, carrito de compras, pasarela de pago, creación y guardado en base de datos etc...",
       metodology: "Metodología scrum",
       wayOfWorking: "Proyecto grupal full Stack",
       codigo: "https://github.com/Dagoav/e-comics",
@@ -116,7 +116,7 @@ export default function Proyects() {
           return (
             <SwiperSlide key={index + "111a"}>
               <div className=" flex flex-row h-auto w-full object-fill p-8 items-center sm:px-2 -z-10">
-                <div className="flex flex-col h-auto w-1/2 overflow-hidden">
+                <div className="flex flex-col h-auto w-[43%] overflow-hidden">
                   <img
                     className=" w-auto rounded-2xl h-[25rem] md:h-[22rem] sm:h-[14rem] max-w-xs py-6 flex justify-center mx-auto object-fill px-10 md:px-5 sm:px-2"
                     src={element.img}
@@ -125,7 +125,7 @@ export default function Proyects() {
                 </div>
                 <div
                   key={index + 1009}
-                  className="flex flex-col w-1/2 px-10 lg:px-0 md:px-0 sm:px-0 mx-20 lg:mx-10 md:mx-5 sm:mx-2 text-justify align-middle justify-center h-auto sm:scroll-my-4"
+                  className="flex flex-col w-[57%] px-10 lg:px-0 md:px-0 sm:px-0 mx-20 lg:mx-10 md:mx-5 sm:mx-2 text-justify align-middle justify-center h-auto sm:scroll-my-4"
                 >
                   <h3 className="text-center py-6 mb-2 text-xl font-bold text-[#eff6e0]">
                     {element.title}
