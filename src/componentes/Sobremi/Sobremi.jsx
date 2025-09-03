@@ -4,6 +4,7 @@ import { ImHeadphones } from "react-icons/im";
 import { GiCampCookingPot, GiNotebook, GiWhiteBook } from "react-icons/gi";
 import { FaCarSide } from "react-icons/fa6";
 import { IoMdBasketball } from "react-icons/io";
+import CertColbAwaq from "../../assets/CertColbAwaq.pdf";
 
 export default function () {
   const [activeTab, setactiveTab] = useState(0);
@@ -472,18 +473,18 @@ export default function () {
                       Awaq ONGD
                       <p className="normal-case py-5 text-base text-justify font-light">
                         Awaq, es una organización no gubernamental de desarrollo
-                        en la cual, colaboro desde 2023 hasta actualmente como
-                        desarrollador Frontend. Aquí he participado en proyectos
-                        y he tenido la oportunidad de crecer en la práctica del
-                        código y en la lógica; como Scrum Master lideré equipos
-                        de desarrollo para implementación de mejoras; he
-                        contribuido y asistido a reuniones virtuales y he podido
-                        participar en todo el ciclo de vida de proyectos
-                        importantes hasta ser públicos; Algunas de las
-                        tecnilogías que, utilizamos son: React, tailwindcss,
-                        typescript, trello y otras tecnologías secundarias junto
-                        con metodologías Agile para tener entregables óptimos y
-                        en las fechas establecidas.
+                        en la cual, colaboré desde Julio 2023 hasta Agosto 2024
+                        como desarrollador Frontend y Scrum Master. Aquí
+                        participé en varios proyectos y tuve la oportunidad de
+                        crecer en la práctica del código y en la lógica; como
+                        Scrum Master lideré equipos de desarrollo para
+                        implementación de mejoras; contribuí y asistí a
+                        reuniones virtuales y pude participar en todo el ciclo
+                        de vida de proyectos importantes hasta ser públicos;
+                        Algunas de las tecnologías que utilizamos fueron: React,
+                        tailwindcss, typescript, trello y otras tecnologías
+                        secundarias junto con metodologías Agile para tener
+                        entregables óptimos en las fechas establecidas.
                       </p>
                       <a target="_blanck" href={"https://somosawaq.org/"}>
                         <button className="transition-all duration-1000 snap-start flex justify-start p-2 rounded-xl border-y-2 border-[#eff6e0] text-[#39c8f7] hover:scale-95 hover:border-[#39c8f7] hover:text-[#eff6e0]">
@@ -494,7 +495,7 @@ export default function () {
                     <li className="h-auto my-2 py-5 px-10 text-center rounded-xl bg-[#01161E] text-xl lg:text-lg md:text-base sm:text-base font-semibold uppercase ">
                       Ver certificados Obtenidos
                       <div className="flex justify-evenly mx-auto text-center gap-10 pt-16">
-                        <a href="" target="_blanck">
+                        <a href={CertColbAwaq} target="_blanck">
                           <button className="h-auto hover:font-bold text-center md:text-base sm:text-sm hover:whitespace-normal text-[#39c8f7]">
                             Certificado de Colaboración
                           </button>
