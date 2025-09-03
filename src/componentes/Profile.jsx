@@ -1,14 +1,38 @@
 import imagPerfil from "../assets/Juan.jpg";
 import { Link } from "react-router-dom";
-import Servises from "./Servises";
+// import Servises from "./Servises";
+import Typed from "typed.js";
+import { useEffect } from "react";
 
 const Profile = () => {
+  useEffect(() => {
+    const typed = new Typed(".typed", {
+      //dos argumentos1 la clase y 2 la config
+      strings: ["Full-stack", "Front-end", "Back-end"],
+      smartBackspace: true,
+      typeSpeed: 100,
+      startDelay: 300,
+      backSpeed: 100,
+      shuffle: false,
+      backDelay: 1500,
+      loop: true,
+      loopCount: false,
+      showCursor: false,
+      cursorChar: "|",
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <>
       <div className="flex gap-20 justify-center items-center mx-10 w-auto sm:mx-5 sm:gap-4 h-auto sm:flex sm:flex-col ">
         {/* <span className="borderImagPerfil absolute inset-0 rounded-full border-2 border-blue-500 -z-10 shadow-lg shadow-blue-500/50"></span> */}
         <img
-          className=" sm:mt-24 h-[26rem] xl:h-[18rem] md:h-[12rem] sm:h-[12rem] 2xl:h-[28rem] rounded-2xl w-auto bg-transparent z-50 "
+          className=" shadow-2xl sm:mt-24 h-[26rem] xl:h-[18rem] md:h-[12rem] sm:h-[12rem] 2xl:h-[28rem] rounded-full w-auto bg-transparent z-50 "
           src={imagPerfil}
           alt="Imagen de perfil"
         />
@@ -18,7 +42,7 @@ const Profile = () => {
             Juan Ramírez
           </h1>
           <h2 className=" text-3xl font-semibold ml-20 sm:ml-0 text-[#39c8f7] sm:text-xl ">
-            Developer Full Stack
+            Developer <span className="typed"></span>
           </h2>
           {/* <div className="text-xl font-semibold text-[#39c8f7] sm:text-lg uppercase">
             <Servises />
@@ -28,7 +52,7 @@ const Profile = () => {
             experiencias e interacciones fluidas y amigables para el usuario. Mi
             enfoque está en ofrecer soluciones prácticas y convertir desafíos en
             logros concretos. Mi experiencia previa como Scrum Master y
-            developer front-end me ha dado una comprensión única del trabajo
+            desarrollador front-end me ha dado una comprensión única del trabajo
             colaborativo, permitiéndome contribuir de manera eficaz y positiva
             en cualquier entorno.
           </p>
@@ -38,8 +62,8 @@ const Profile = () => {
             negocio, dar confianza a tus clientes y/o que te conozcan desde
             cualquier lugar... */}
             Impulsa tu presencia online y conecta con tus clientes de forma
-            efectiva, Si buscas un desarrollador web para tu proyecto o quieres
-            sumar un Developer a tu equipo
+            efectiva; si buscas un desarrollador web para tu proyecto o quieres
+            sumar uno a tu equipo
             <Link
               to={"/contact"}
               className="visited:text-[#CF9DF0]  text-[#39c8f7] hover:scale-95 hover:border-[#39c8f7] p-1 hover:text-[#eff6e0] transition-all duration-1000 snap-start"
