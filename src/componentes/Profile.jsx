@@ -1,4 +1,3 @@
-import React from "react";
 import imagPerfil from "../assets/Juan.jpg";
 import { Link } from "react-router-dom";
 import Servises from "./Servises";
@@ -32,15 +31,15 @@ const Profile = () => {
             developer front-end me ha dado una comprensión única del trabajo
             colaborativo, permitiéndome contribuir de manera eficaz y positiva
             en cualquier entorno.
-            {/* Entusiasta de la tecnología y con disciplina en
-            el aprendizaje me defino. Ver cómo se transforma el código
-            visualmente y sentir la grandeza de lo que hago, me pone en una
-            perspectiva de aprendizaje continuo para SER el mejor. */}
           </p>
           <br />
           <p className="text-xl mt-4 text-[#eff6e0]  w-auto sm:text-base text-justify mr-8 sm:w-5/6 sm:mx-auto 2xl:w-[80%]">
-            Quieres tener presencia en la red, escalar tu negocio, dar confianza
-            a tus clientes y/o que te conozcan desde cualquier lugar...
+            {/* Quieres agregarme a tu equipo o tener presencia en la red, escalar tu
+            negocio, dar confianza a tus clientes y/o que te conozcan desde
+            cualquier lugar... */}
+            Impulsa tu presencia online y conecta con tus clientes de forma
+            efectiva, Si buscas un desarrollador web para tu proyecto o quieres
+            sumar un Developer a tu equipo
             <Link
               to={"/contact"}
               className="visited:text-[#CF9DF0]  text-[#39c8f7] hover:scale-95 hover:border-[#39c8f7] p-1 hover:text-[#eff6e0] transition-all duration-1000 snap-start"
@@ -48,11 +47,6 @@ const Profile = () => {
               Contáctame
             </Link>
           </p>
-          {/* <br />
-          <p className="text-xl mt-4 text-[#eff6e0]  w-auto sm:text-base text-justify mr-8 sm:w-5/6 sm:mx-auto 2xl:w-[80%]">
-            Diseño y construyo productos digitales que entregan experiencias
-            únicas para tus usuarios y/o clientes que visitan tu web.
-          </p> */}
           <p className="text-2xl font-semibold mt-10 text-[#eff6e0]  sm:text-lg sm:items-center">
             Bienvenidos
           </p>

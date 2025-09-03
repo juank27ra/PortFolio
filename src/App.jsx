@@ -12,9 +12,8 @@ import juan from "./assets/Juan.jpg";
 export default function App() {
   const helmetContext = {};
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <HelmetProvider context={helmetContext}>
-        {" "}
         {/* el context ayuda a garantizar que el contexto nunca se encuentre fuera de la instancia actual de su aplicación */}
         {/* <HashRouter> */}
         <Navbar />
@@ -26,15 +25,12 @@ export default function App() {
               <>
                 <Helmet>
                   <title>Juan Ramirez </title>
-                  <meta
-                    name="description"
-                    content="Desarrollador fullStack orientado más al frontend"
-                  />
+                  <meta name="description" content="Desarrollador fullStack" />
                   <link rel="canonical" href="/" />
                   <meta property="og:title" content="Juan Ramirez" />
                   <meta
                     property="og:description"
-                    content="Desarrollador fullStack orientado más al frontend"
+                    content="Desarrollador fullStack"
                   />
                   <meta property="og:url" content="https://jcrp.vercel.app/" />
                   <meta property="og:image" content={juan} />
