@@ -8,6 +8,9 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "engines": {
+    "node": "22.x"
+  },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@material-tailwind/react": "^2.1.9",
