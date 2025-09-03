@@ -5,17 +5,16 @@
 
 
 :root {
-  --color-primario  : #eff6e0;
-  --color-Secundario: #39c8f7;
-  --color-terciario : #01161E;
-  --color-hover     :
-
-    --font-famili-serif: 'Roboto'
+  --color-primario     : #eff6e0;
+  --color-Secundario   : #39c8f7;
+  --color-terciario    : #01161E;
+  /* --color-hover     : */
+  --font-family-serif  : 'Roboto', sans-serif;
 }
 
 body {
   box-sizing : border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family-serif);
   font-weight: 400;
 }
 

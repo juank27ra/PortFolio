@@ -216,9 +216,9 @@ export default function () {
                                   Curso Práctico de React Native: Manejo de
                                   Listas y Consumo de APIs
                                 </h3>
-                                <time className="pb-4 text-sm text-gray-100">
+                                <span className="pb-4 text-sm text-gray-100">
                                   Platzi (Abr/2024)
-                                </time>
+                                </span>
                                 <hr />
                                 <p className="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100">
                                   <></>
@@ -246,9 +246,9 @@ export default function () {
                                 <h3 className="mb-3 font-bold text-white text-2xl">
                                   Curso de Introducción a Java SE
                                 </h3>
-                                <time className="pb-4 text-sm text-gray-100">
+                                <span className="pb-4 text-sm text-gray-100">
                                   Platzi (Abr/2024)
-                                </time>
+                                </span>
                                 <hr />
                                 <p className="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100">
                                   <></>
@@ -276,9 +276,9 @@ export default function () {
                                 <h3 className="mb-3 font-bold text-white text-2xl">
                                   Curso de Introducción a React Native
                                 </h3>
-                                <time className="pb-4 text-sm text-gray-100">
+                                <span className="pb-4 text-sm text-gray-100">
                                   Platzi (Abr/2024)
-                                </time>
+                                </span>
                                 <hr />
                                 <p className="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100">
                                   <></>
@@ -306,9 +306,9 @@ export default function () {
                                 <h3 className="mb-3 font-bold text-white text-2xl">
                                   Ciberseguridad de Google
                                 </h3>
-                                <time className="pb-4 text-sm text-gray-100">
+                                <span className="pb-4 text-sm text-gray-100">
                                   Coursera and Colnodo (sep/2023 - marzo/2024)
-                                </time>
+                                </span>
                                 <hr />
                                 <p className="text-sm font-medium leading-snug tracking-wide text-gray-300 text-opacity-100">
                                   Con el desglose de 8 cursos me introduje en la
