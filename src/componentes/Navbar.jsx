@@ -14,7 +14,7 @@ import {
   SpeedDialAction,
 } from "@material-tailwind/react";
 import favicon from "../assets/favicon.png";
-import Servises from "./Servises";
+// import Servises from "./Servises";
 
 const Navbar = () => {
   return (
@@ -32,19 +32,19 @@ const Navbar = () => {
         </Link>
         <Link
           to="/about"
-          className=" z-10 text-xl md:text-lg font-bold  text-[#eff6e0] my-auto  hover:text-[#39c8f7] hover:scale-125 md:hover:scale-110 selection:text-[##39c8f7] relative hoverAfterNav"
+          className=" z-10 text-xl md:text-lg font-bold  text-[#eff6e0] my-auto  hover:text-[#39c8f7] hover:scale-125 md:hover:scale-110 relative hoverAfterNav"
         >
           Sobre mí{" "}
         </Link>
         <Link
           to="/proyects"
-          className=" z-10 text-xl md:text-lg font-bold  text-[#eff6e0] my-auto  hover:text-[#39c8f7] hover:scale-125 md:hover:scale-110 selection:text-[##39c8f7] relative hoverAfterNav"
+          className=" z-10 text-xl md:text-lg font-bold  text-[#eff6e0] my-auto  hover:text-[#39c8f7] hover:scale-125 md:hover:scale-110 relative hoverAfterNav"
         >
           Proyectos{" "}
         </Link>
         <Link
           to="/contact"
-          className=" z-10 text-xl md:text-lg font-bold  text-[#eff6e0] my-auto  hover:text-[#39c8f7] hover:scale-125 md:hover:scale-110 selection:text-[##39c8f7] relative hoverAfterNav"
+          className=" z-10 text-xl md:text-lg font-bold  text-[#eff6e0] my-auto  hover:text-[#39c8f7] hover:scale-125 md:hover:scale-110 relative hoverAfterNav"
         >
           Contácteme{" "}
         </Link>
@@ -52,7 +52,7 @@ const Navbar = () => {
           href={pdfcv}
           target="_blank"
           rel="noopener"
-          className=" z-10 text-xl rounded-xl md:text-lg font-bold text-[#eff6e0] my-auto mx-4 p-4 md:p-2 shadow-md shadow-[#eff6e0] hover:text-[#39c8f7] selection:text-[#39c8f7] hover:shadow-md hover:shadow-[#39c8f7]"
+          className=" z-10 text-xl rounded-xl md:text-lg font-bold text-[#eff6e0] my-auto mx-4 p-4 md:p-2 shadow-md shadow-[#eff6e0] hover:text-[#39c8f7] hover:shadow-md hover:shadow-[#39c8f7]"
         >
           Ver/Descargar cv{" "}
         </a>
