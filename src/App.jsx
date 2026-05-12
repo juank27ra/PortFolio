@@ -1,6 +1,6 @@
 import { Route, Routes, HashRouter, BrowserRouter } from "react-router-dom";
 import { HelmetProvider, Helmet } from "react-helmet-async";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
 import Navbar from "./componentes/Navbar";
 import Home from "./componentes/Home";
 import Sobremi from "./componentes/Sobremi/Sobremi";
@@ -13,8 +13,8 @@ import juan from "./assets/Juan.jpg";
 export default function App() {
   const helmetContext = {};
   return (
-    <Analytics />
     <BrowserRouter basename="/">
+      <Analytics />
       <HelmetProvider context={helmetContext}>
         {/* el context ayuda a garantizar que el contexto nunca se encuentre fuera de la instancia actual de su aplicación */}
         {/* <HashRouter> */}
