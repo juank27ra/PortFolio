@@ -2,18 +2,24 @@ import React from "react";
 
 function Servises() {
   return (
-    <>
-      <div className="overflow-hidden whitespace-nowrap">
-        <div className="animate-marquee flex w-full">
-          <h2 className=""> Construccion de páginas web fullstack | </h2>
-          <h2 className=""> Desarrollo Front-end | </h2>
-          <h2 className=""> Construccion de landing page | </h2>
-          <h2 className=""> Integración de API's y servicios externos | </h2>
-          <h2 className=""> Diseño Responsivo | </h2>
-          <h2 className=""> Soporte y mantenimiento | </h2>
-        </div>
+    <div className="overflow-hidden whitespace-nowrap">
+      <div className="animate-marquee flex w-full">
+        <p> 🧩 Desarrollo de plataformas web completas</p>
+        <p> ⚡ Interfaces modernas y eficientes</p>
+        <p> 🚀 Landing pages optimizadas para resultados</p>
+        <p> 🔌 Integración con servicios externos y automatización</p>
+        <p>
+          📱 Implementación de diseño responsivo y adaptable consistente en
+          todos los dispositivos |
+        </p>
+        <p> 🛠️ Soporte técnico continuo y mantenimiento evolutivo | </p>
+        <p>
+          🤖 Integración y aprovechamiento de herramientas de IA en el ciclo de
+          calidad y desarrollo (diseño, implementación, depuración y
+          optimización) |
+        </p>
       </div>
-    </>
+    </div>
   );
 }
 
